@@ -13,9 +13,25 @@
 </head>
 <body>
     <form action="" method = "post" >
-    <label for="nombre">nombre</label>
-    <input id = "nombre" type="text" placeholder = "Escriba su nombre" name="nombre" >
-    
+
+        <label for="nombre">nombre</label>
+        <input id = "nombre" type="text" placeholder = "Escriba su nombre" name="nombre" >
+
+        <label for="apellido">apellido</label>
+        <input id = "apellido" type="text" placeholder = "Escriba su apellido" name="apellido" >
+
+        <label for="cedula">cedula</label>
+        <input id = "cedula" type="number" placeholder = "Escriba su cedula" name="cedula" >
+
+        <label for="telefono">telefono</label>
+        <input id = "telefono" type="number" placeholder = "Escriba su telefono" name="telefono" >
+
+        <label for="direccion">direccion</label>
+        <input id = "direccion" type="text" placeholder = "Escriba su direccion" name="direccion" >
+
+        <label for="correo">correo</label>
+        <input id = "correo" type="text" placeholder = "Escriba su correo" name="correo" >
+
     <button> Enviar </button>
 
     </form>
