@@ -25,6 +25,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">Diseñar</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./formulario.php">Formulario</a>
+            </li>
         </ul>
     </nav>
     <div class="container">
