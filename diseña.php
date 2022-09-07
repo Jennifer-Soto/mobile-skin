@@ -11,15 +11,15 @@
     <link rel="stylesheet" href="style.css">    
     <!-- ALL VERSION CSS -->
     <link rel="stylesheet" href="css/versions.css">
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
+    <!-- Responsive CSS 
+    <link rel="stylesheet" href="css/responsive.css">-->
+    <!-- Custom CSS 
+    <link rel="stylesheet" href="css/custom.css">-->
 
     <link rel="stylesheet" href="css/formulario.css">
 </head>
 <body>
-<header class="header header_style_01">
+    <header class="header header_style_01">
         <nav class="navbar header-nav navbar-expand-lg">
             <div class="container">
 				<a class="navbar-brand" href="index.php"><img src="images/logos/log.jpeg" alt="" width="150px" height="75px"></a>
@@ -34,6 +34,7 @@
                         <li><a class="nav-link" href="#features">Caracteristicas</a></li>
                         <li><a class="nav-link" href="#screenshots">Imagenes</a></li>
                         <li><a class="nav-link" href="#team">Nosotros</a></li>
+                        <li><a class="nav-link" href="formulario.php"><img src="images/carritoxd.png" alt="image" width="30px" height="30px"/></a></li>
                         <!--<li><a class="nav-link" href="#pricing">Pricing</a></li>
                         <li><a class="nav-link" href="#testimonials">Clients</a></li>
                         <li><a class="nav-link" href="#purchase">Purchase</a></li>
@@ -43,29 +44,43 @@
             </div>
         </nav>
     </header>
-        <h1 style="color: white">HAZ TU COMPRA AQUÍ</h1>
-    <form action="" method = "post" >
+<div class="section wb">
+    <div class="card">
+        <img class="card-img-top" src="images/marca/apple-logo.jpeg" alt="" width="75px" height="300px"> 
+            <div class="card-body">
+                <h4 class="card-title">Title</h4>
+                <a name="" id="" class="btn btn-primary" href="#" role="button">Ver mas</a>
+            </div>
+    </div>
+</div>
+<div class="section wb">
+    <div class="card">
+        <img class="card-img-top" src="images/marca/HUAWEI-LOGO.webp" alt="" width="75px" height="300px">
+            <div class="card-body">
+                <h4 class="card-title">Title</h4>
+                <p class="card-text">Text</p>
+            </div>
+    </div>
+</div>
+    <div class="section wb">
+        <div class="card">
+            <img class="card-img-top" src="images/marca/Samsung-logo.webp" alt="" width="75px" height="300px">
+                <div class="card-body">
+                    <h4 class="card-title">Title</h4>
+                    <p class="card-text">Text</p>
+                </div>
+        </div>
+</div>
+<div class="section wb">
+    <div class="card">
+        <img class="card-img-top" src="images/marca/Xiaomi_logo.png" alt="" width="75px" height="300px">
+            <a href="index.php"></a>
+                <div class="card-body">
+                    <h4 class="card-title">Title</h4>
+                    <p class="card-text">Text</p>
+                </div>
+    </div>
+</div>
+  
 
-        <label for="nombre" style="color: white">NOMBRE:</label><br>
-        <input id = "nombre" type="text" placeholder = "Escriba su nombre" name="nombre" ><br><br>
-
-        <label for="apellido" style="color: white">APELLIDO:</label><br>
-        <input id = "apellido" type="text" placeholder = "Escriba su apellido" name="apellido" ><br><br>
-
-        <label for="cedula" style="color: white">CÉDULA:</label><br>
-        <input id = "cedula" type="number" placeholder = "Escriba su cedula" name="cedula" ><br><br>
-
-        <label for="telefono" style="color: white">TELÉFONO:</label><br>
-        <input id = "telefono" type="number" placeholder = "Escriba su telefono" name="telefono" ><br><br>
-
-        <label for="direccion" style="color: white">DIRECCIÓN:</label><br>
-        <input id = "direccion" type="text" placeholder = "Escriba su direccion" name="direccion" ><br><br>
-
-        <label for="correo" style="color: white">CORREO:</label><br>
-        <input id = "correo" type="text" placeholder = "Escriba su correo" name="correo" ><br><br>
-
-    <button class="btn-primary"> Enviar </button>
-
-    </form>
 </body>
-</html>

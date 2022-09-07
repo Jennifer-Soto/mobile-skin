@@ -65,7 +65,7 @@
     <header class="header header_style_01">
         <nav class="navbar header-nav navbar-expand-lg">
             <div class="container">
-				<a class="navbar-brand" href="index.html"><img src="images/logos/log.png.jpeg" alt=""width="300px" height="150px"></a>
+				<a class="navbar-brand" href="index.html"><img src="images/logos/log.jpeg" alt="" width="150px" height="75px"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarApp" aria-controls="navbarApp" aria-expanded="false" aria-label="Toggle navigation">
 					<span></span>
 					<span></span>
@@ -76,9 +76,10 @@
                         <li><a class="nav-link active" href="#home">Home</a></li>
                         <li><a class="nav-link" href="#team">About</a></li>
                         <li><a class="nav-link" href="#features">Caracteristicas</a></li>
-                        <li><a class="nav-link" href="#screenshots">Diseña aquí</a></li>
-                        <li><a class="nav-link" href="formulario.php"><img src="images/carritoxd.png" alt=""width="30px" height="30px"</a></li>
-                        <!--<li><a class="nav-link" href="#testimonials">Clients</a></li>
+                        <li><a class="nav-link" href="#screenshots">Imagenes</a></li>
+                        <li><a class="nav-link" href="diseña.php">Diseña aquí</a></li>
+                        <li><a class="nav-link" href="formulario.php"><img src="images/carritoxd.png" alt="image" width="30px" height="30px"</a></li>
+                        <!--
                         <li><a class="nav-link" href="#purchase">Purchase</a></li>
 						<li><a class="nav-link" href="#support">Support</a></li>-->
                     </ul>
