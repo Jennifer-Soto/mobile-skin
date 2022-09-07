@@ -48,8 +48,8 @@
     <div class="card">
         <img class="card-img-top" src="images/marca/apple-logo.jpeg" alt="" width="75px" height="300px"> 
             <div class="card-body">
-                <h4 class="card-title">Title</h4>
-                <a name="" id="" class="btn btn-primary" href="#" role="button">Ver mas</a>
+                <h4 class="card-title">Apple</h4>
+                <a name="" id="" class="btn btn-primary" href="dispositivos/apple/apple.php" role="button">Ver mas</a>
             </div>
     </div>
 </div>

@@ -78,7 +78,7 @@
                         <li><a class="nav-link" href="#features">Caracteristicas</a></li>
                         <li><a class="nav-link" href="#screenshots">Imagenes</a></li>
                         <li><a class="nav-link" href="diseña.php">Diseña aquí</a></li>
-                        <li><a class="nav-link" href="formulario.php"><img src="images/carritoxd.png" alt="image" width="30px" height="30px"</a></li>
+                        <li><a class="nav-link" href="formulario.php"><img src="images/carritoxd.png" alt="image" width="30px" height="30px"/></a></li>
                         <!--
                         <li><a class="nav-link" href="#purchase">Purchase</a></li>
 						<li><a class="nav-link" href="#support">Support</a></li>-->
