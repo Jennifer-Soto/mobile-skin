@@ -43,24 +43,25 @@
             </div>
         </nav>
     </header>
+        <h1>HAZ TU COMPRA AQUÍ</h1>
     <form action="" method = "post" >
 
-        <label for="nombre">nombre</label>
+        <label for="nombre">NOMBRE:</label>
         <input id = "nombre" type="text" placeholder = "Escriba su nombre" name="nombre" >.<br>
 
-        <label for="apellido">apellido</label>
+        <label for="apellido">APELLIDO:</label>
         <input id = "apellido" type="text" placeholder = "Escriba su apellido" name="apellido" >.<br>
 
-        <label for="cedula">cedula</label>
+        <label for="cedula">CÉDULA:</label>
         <input id = "cedula" type="number" placeholder = "Escriba su cedula" name="cedula" >.<br>
 
-        <label for="telefono">telefono</label>
+        <label for="telefono">TELÉFONO:</label>
         <input id = "telefono" type="number" placeholder = "Escriba su telefono" name="telefono" >.<br>
 
-        <label for="direccion">direccion</label>
+        <label for="direccion">DIRECCIÓN:</label>
         <input id = "direccion" type="text" placeholder = "Escriba su direccion" name="direccion" >.<br>
 
-        <label for="correo">correo</label>
+        <label for="correo">CORREO:</label>
         <input id = "correo" type="text" placeholder = "Escriba su correo" name="correo" >.<br>
 
     <button> Enviar </button>
