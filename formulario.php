@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Compras</title>
-    <title>Document</title>
+    
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Site CSS -->
     <link rel="stylesheet" href="style.css">    
@@ -44,7 +44,7 @@
         </nav>
     </header>
         <h1 style="color: white">HAZ TU COMPRA AQUÍ</h1>
-    <form action="" method = "post" >
+    <form action="read.php" method ="post" >
 
         <label for="nombre" style="color: white">NOMBRE:</label><br>
         <input id = "nombre" type="text" placeholder = "Escriba su nombre" name="nombre" ><br><br>

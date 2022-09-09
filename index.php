@@ -414,7 +414,7 @@
             <div class="row dev-list text-center">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                     <div class="widget clearfix">
-                        <img src="uploads/team_01.jpg" alt="" class="img-fluid rounded-circle">
+                        <img src="uploads/jenni.jpg" alt="" class="img-fluid rounded-circle">
                         <div class="widget-title">
                             <h3>Soren Bo Bostian</h3>
                             <small>Senior Art Director</small>
