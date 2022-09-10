@@ -22,7 +22,7 @@
     <header class="header header_style_01">
         <nav class="navbar header-nav navbar-expand-lg">
             <div class="container">
-				<a class="navbar-brand" href="index.php"><img src="images/logos/funda-mobile.png" alt="" width="150px" height="75px"></a>
+				<a class="navbar-brand" href="index.php"><img src="images/logos/funda-mobile.svg" alt="" width="150px" height="75px"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarApp" aria-controls="navbarApp" aria-expanded="false" aria-label="Toggle navigation">
 					<span></span>
 					<span></span>
