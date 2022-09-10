@@ -44,16 +44,18 @@
             </div>
         </nav>
     </header>
-<div class="section wb">
-    <div class="card">
-        <img class="card-img-top" src="images/marca/apple-logo.jpeg" alt="" width="75px" height="300px"> 
+<div>
+
+    <div class="section wb col-md-3">
+        <div class="card">
+            <img class="card-img-top" src="images/marca/apple-logo.jpeg" alt="" width="75px" height="300px"> 
             <div class="card-body">
                 <h4 class="card-title">Apple</h4>
                 <a name="" id="" class="btn btn-primary" href="dispositivos/apple/apple.php" role="button">Ver mas</a>
             </div>
     </div>
 </div>
-<div class="section wb">
+<div class="section wb col-md-3">
     <div class="card">
         <img class="card-img-top" src="images/marca/HUAWEI-LOGO.webp" alt="" width="75px" height="300px">
             <div class="card-body">
@@ -62,7 +64,7 @@
             </div>
     </div>
 </div>
-    <div class="section wb">
+    <div class="section wb col-md-3">
         <div class="card">
             <img class="card-img-top" src="images/marca/Samsung-logo.webp" alt="" width="75px" height="300px">
                 <div class="card-body">
@@ -71,7 +73,7 @@
                 </div>
         </div>
 </div>
-<div class="section wb">
+<div class="section wb col-md-3">
     <div class="card">
         <img class="card-img-top" src="images/marca/Xiaomi_logo.png" alt="" width="75px" height="300px">
             <a href="index.php"></a>
@@ -80,6 +82,7 @@
                     <p class="card-text">Text</p>
                 </div>
     </div>
+</div>
 </div>
   
 
