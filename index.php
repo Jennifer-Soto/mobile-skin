@@ -416,61 +416,35 @@
                     <div class="widget clearfix">
                         <img src="uploads/jenni.jpg" alt="" class="img-fluid rounded-circle">
                         <div class="widget-title">
-                            <h3>Soren Bo Bostian</h3>
-                            <small>Senior Art Director</small>
+                            <h3>Jenni Soto</h3>
+                            <small></small>
                         </div>
                         <!-- end title -->
-                        <p>Hello guys, I am Soren from Sirbistana. I am senior art director and founder of Violetta.</p>
+                        <p></p>
 
                         <div class="footer-social">
-                            <a href="#" class="btn global-radius"><i class="fa fa-facebook"></i></a>
-                            <a href="#" class="btn global-radius"><i class="fa fa-github"></i></a>
-                            <a href="#" class="btn global-radius"><i class="fa fa-twitter"></i></a>
-                            <a href="#" class="btn global-radius"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100008846716542" class="btn global-radius"><i class="fa fa-facebook"></i></a>
+                            <a href="https://github.com/Jennifer-Soto" class="btn global-radius"><i class="fa fa-github"></i></a>
                         </div>
                     </div><!--widget -->
                 </div><!-- end col -->
 
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                     <div class="widget clearfix">
-                        <img src="uploads/team_02.jpg" alt="" class="img-fluid rounded-circle">
+                        <img src="uploads/.jpg" alt="" class="img-fluid rounded-circle">
                         <div class="widget-title">
-                            <h3>Bryan Saftler</h3>
-                            <small>Creative Technologist Microsoft</small>
+                            <h3>Michael Daza</h3>
+                            <small></small>
                         </div>
                         <!-- end title -->
-                        <p>Hello guys, I am Soren from Sirbistana. I am senior art director and founder of Violetta.</p>
+                        <p></p>
 
                         <div class="footer-social">
                             <a href="#" class="btn global-radius"><i class="fa fa-facebook"></i></a>
                             <a href="#" class="btn global-radius"><i class="fa fa-github"></i></a>
-                            <a href="#" class="btn global-radius"><i class="fa fa-twitter"></i></a>
-                            <a href="#" class="btn global-radius"><i class="fa fa-linkedin"></i></a>
                         </div>
                     </div><!--widget -->
                 </div><!-- end col -->
-
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
-                    <div class="widget clearfix">
-                        <img src="uploads/team_03.jpg" alt="" class="img-fluid rounded-circle">
-                        <div class="widget-title">
-                            <h3>Matthew Bayliss</h3>
-                            <small>Front End Developer</small>
-                        </div>
-                        <!-- end title -->
-                        <p>Hello guys, I am Soren from Sirbistana. I am senior art director and founder of Violetta.</p>
-
-                        <div class="footer-social">
-                            <a href="#" class="btn global-radius"><i class="fa fa-facebook"></i></a>
-                            <a href="#" class="btn global-radius"><i class="fa fa-github"></i></a>
-                            <a href="#" class="btn global-radius"><i class="fa fa-twitter"></i></a>
-                            <a href="#" class="btn global-radius"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div><!--widget -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
 
     <div class="parallax section" style="background-image:url('uploads/ben_img_2.jpg');">
         <div class="container">
