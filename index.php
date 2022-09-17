@@ -65,7 +65,7 @@
     <header class="header header_style_01">
         <nav class="navbar header-nav navbar-expand-lg">
             <div class="container">
-				<a class="navbar-brand" href=#home><img src="images/logos/log.jpeg" alt="" width="150px" height="75px"></a>
+				<a class="navbar-brand" href=#home><img src="images/logos/funda-mobile.svg" alt="" width="150px" height="75px"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarApp" aria-controls="navbarApp" aria-expanded="false" aria-label="Toggle navigation">
 					<span></span>
 					<span></span>
@@ -74,14 +74,12 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarApp">
                     <ul class="navbar-nav">
                         <li><a class="nav-link active" href="#home">Home</a></li>
-                        <li><a class="nav-link" href="#team">About</a></li>
-                        <li><a class="nav-link" href="#features">Portafolio</a></li>
-                        <li><a class="nav-link" href="#screenshots">Imagenes</a></li>
+                        <li><a class="nav-link" href="#team">Nosotros</a></li>
+                        <li><a class="nav-link" href="#screenshots">Portafolio</a></li>
                         <li><a class="nav-link" href="diseña.php">Diseña aquí</a></li>
                         <li><a class="nav-link" href="formulario.php"><img src="images/carritoxd.png" alt="image" width="30px" height="30px"/></a></li>
-                        <!--
-                        <li><a class="nav-link" href="#purchase">Purchase</a></li>
-						<li><a class="nav-link" href="#support">Support</a></li>-->
+                        <li><a class="nav-link active" href="login/index.html"> <button class="btn btn-primary ">Login</button>    </a></li>
+						<!--<li><a class="nav-link" href="#support">Support</a></li>-->
                     </ul>
                 </div>
             </div>
@@ -98,7 +96,7 @@
                     </div>
                 </div>
                 <div class="app_iphone_01 wow slideInUp hidden-xs hidden-sm" data-wow-duration="1s" data-wow-delay="0.2s">
-                    <img src="uploads/app_iphone_01.png" alt="" class="img-fluid">
+                    <img src="uploads/Fundas-personalizadas.webp" alt="" class="img-fluid">
                 </div>
                 <div class="app_iphone_02 wow slideInUp hidden-xs hidden-sm" data-wow-duration="1s" data-wow-delay="0.5s">
                     <img src="uploads/app_iphone_02.png" alt="" class="img-fluid">

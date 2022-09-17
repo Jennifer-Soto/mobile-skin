@@ -31,9 +31,9 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarApp">
                     <ul class="navbar-nav">
                         <li><a class="nav-link active" href="index.php">Inicio</a></li>
-                        <li><a class="nav-link" href="#features">Caracteristicas</a></li>
-                        <li><a class="nav-link" href="#screenshots">Imagenes</a></li>
-                        <li><a class="nav-link" href="#team">Nosotros</a></li>
+                        <li><a class="nav-link" href="#features">Nosotros</a></li>
+                        <li><a class="nav-link" href="#screenshots">Portafolio</a></li>
+                        <li><a class="nav-link" href="#team">Diseña Aquí</a></li>
                         <li><a class="nav-link" href="formulario.php"><img src="images/carritoxd.png" alt="image" width="30px" height="30px"/></a></li>
                         <!--<li><a class="nav-link" href="#pricing">Pricing</a></li>
                         <li><a class="nav-link" href="#testimonials">Clients</a></li>
