@@ -1,3 +1,16 @@
+<?php
+  session_start();
+   
+  // Controlo si el usuario ya está logueado en el sistema.
+  if(isset($_SESSION['email'])){
+    // Le doy la bienvenida al usuario.
+    echo 'Bienvenido <strong>' . $_SESSION['email'] . '</strong>, <a href="login/index.html">cerrar sesión</a>';
+  }else{
+    // Si no está logueado lo redireccion a la página de login.
+    header("HTTP/1.1 302 Moved Temporarily"); 
+    header("Location: login/cerrar-sesion.php"); 
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,13 +22,13 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
  
      <!-- Site Metas -->
-    <title>Appfast - Responsive OnePage HTML5 Template</title>  
+    <title>Mobile Skin</title>  
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/logos/funda-mobile.svg" type="image/x-icon" />
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
     <!-- Bootstrap CSS -->
@@ -65,7 +78,7 @@
     <header class="header header_style_01">
         <nav class="navbar header-nav navbar-expand-lg">
             <div class="container">
-				<a class="navbar-brand" href="index.html"><img src="images/logos/log.jpeg" alt="" width="150px" height="75px"></a>
+				<a class="navbar-brand" href=#home><img src="images/logos/funda-mobile.svg" alt="" width="150px" height="75px"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarApp" aria-controls="navbarApp" aria-expanded="false" aria-label="Toggle navigation">
 					<span></span>
 					<span></span>
@@ -74,14 +87,12 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarApp">
                     <ul class="navbar-nav">
                         <li><a class="nav-link active" href="#home">Home</a></li>
-                        <li><a class="nav-link" href="#team">About</a></li>
-                        <li><a class="nav-link" href="#features">Caracteristicas</a></li>
-                        <li><a class="nav-link" href="#screenshots">Imagenes</a></li>
+                        <li><a class="nav-link" href="#team">Nosotros</a></li>
+                        <li><a class="nav-link" href="#screenshots">Portafolio</a></li>
                         <li><a class="nav-link" href="diseña.php">Diseña aquí</a></li>
                         <li><a class="nav-link" href="formulario.php"><img src="images/carritoxd.png" alt="image" width="30px" height="30px"/></a></li>
-                        <!--
-                        <li><a class="nav-link" href="#purchase">Purchase</a></li>
-						<li><a class="nav-link" href="#support">Support</a></li>-->
+                        <li><a class="nav-link active" href="login/index.html"> <button class="btn btn-primary ">Login</button>    </a></li>
+						<!--<li><a class="nav-link" href="#support">Support</a></li>-->
                     </ul>
                 </div>
             </div>
@@ -98,7 +109,7 @@
                     </div>
                 </div>
                 <div class="app_iphone_01 wow slideInUp hidden-xs hidden-sm" data-wow-duration="1s" data-wow-delay="0.2s">
-                    <img src="uploads/app_iphone_01.png" alt="" class="img-fluid">
+                    <img src="uploads/Fundas-personalizadas.webp" alt="" class="img-fluid">
                 </div>
                 <div class="app_iphone_02 wow slideInUp hidden-xs hidden-sm" data-wow-duration="1s" data-wow-delay="0.5s">
                     <img src="uploads/app_iphone_02.png" alt="" class="img-fluid">
@@ -416,61 +427,35 @@
                     <div class="widget clearfix">
                         <img src="uploads/jenni.jpg" alt="" class="img-fluid rounded-circle">
                         <div class="widget-title">
-                            <h3>Soren Bo Bostian</h3>
-                            <small>Senior Art Director</small>
+                            <h3>Jenni Soto</h3>
+                            <small></small>
                         </div>
                         <!-- end title -->
-                        <p>Hello guys, I am Soren from Sirbistana. I am senior art director and founder of Violetta.</p>
+                        <p></p>
 
                         <div class="footer-social">
-                            <a href="#" class="btn global-radius"><i class="fa fa-facebook"></i></a>
-                            <a href="#" class="btn global-radius"><i class="fa fa-github"></i></a>
-                            <a href="#" class="btn global-radius"><i class="fa fa-twitter"></i></a>
-                            <a href="#" class="btn global-radius"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100008846716542" class="btn global-radius"><i class="fa fa-facebook"></i></a>
+                            <a href="https://github.com/Jennifer-Soto" class="btn global-radius"><i class="fa fa-github"></i></a>
                         </div>
                     </div><!--widget -->
                 </div><!-- end col -->
 
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                     <div class="widget clearfix">
-                        <img src="uploads/team_02.jpg" alt="" class="img-fluid rounded-circle">
+                        <img src="uploads/Michael.jpg" alt="" class="img-fluid rounded-circle">
                         <div class="widget-title">
-                            <h3>Bryan Saftler</h3>
-                            <small>Creative Technologist Microsoft</small>
+                            <h3>Michael Daza</h3>
+                            <small></small>
                         </div>
                         <!-- end title -->
-                        <p>Hello guys, I am Soren from Sirbistana. I am senior art director and founder of Violetta.</p>
+                        <p></p>
 
                         <div class="footer-social">
-                            <a href="#" class="btn global-radius"><i class="fa fa-facebook"></i></a>
-                            <a href="#" class="btn global-radius"><i class="fa fa-github"></i></a>
-                            <a href="#" class="btn global-radius"><i class="fa fa-twitter"></i></a>
-                            <a href="#" class="btn global-radius"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/maicol.daza.904/" class="btn global-radius"><i class="fa fa-facebook"></i></a>
+                            <a href="https://github.com/MichaelD002" class="btn global-radius"><i class="fa fa-github"></i></a>
                         </div>
                     </div><!--widget -->
                 </div><!-- end col -->
-
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
-                    <div class="widget clearfix">
-                        <img src="uploads/team_03.jpg" alt="" class="img-fluid rounded-circle">
-                        <div class="widget-title">
-                            <h3>Matthew Bayliss</h3>
-                            <small>Front End Developer</small>
-                        </div>
-                        <!-- end title -->
-                        <p>Hello guys, I am Soren from Sirbistana. I am senior art director and founder of Violetta.</p>
-
-                        <div class="footer-social">
-                            <a href="#" class="btn global-radius"><i class="fa fa-facebook"></i></a>
-                            <a href="#" class="btn global-radius"><i class="fa fa-github"></i></a>
-                            <a href="#" class="btn global-radius"><i class="fa fa-twitter"></i></a>
-                            <a href="#" class="btn global-radius"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div><!--widget -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
 
     <div class="parallax section" style="background-image:url('uploads/ben_img_2.jpg');">
         <div class="container">

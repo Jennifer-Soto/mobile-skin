@@ -22,7 +22,7 @@
 <header class="header header_style_01">
         <nav class="navbar header-nav navbar-expand-lg">
             <div class="container">
-				<a class="navbar-brand" href="index.php"><img src="images/logos/log.jpeg" alt="" width="150px" height="75px"></a>
+				<a class="navbar-brand" href="index.php"><img src="images/logos/funda-mobile.svg" alt="" width="150px" height="75px"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarApp" aria-controls="navbarApp" aria-expanded="false" aria-label="Toggle navigation">
 					<span></span>
 					<span></span>
@@ -31,9 +31,9 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarApp">
                     <ul class="navbar-nav">
                         <li><a class="nav-link active" href="index.php">Inicio</a></li>
-                        <li><a class="nav-link" href="#features">Caracteristicas</a></li>
-                        <li><a class="nav-link" href="#screenshots">Imagenes</a></li>
-                        <li><a class="nav-link" href="#team">Nosotros</a></li>
+                        <li><a class="nav-link" href="#features">Nosotros</a></li>
+                        <li><a class="nav-link" href="#screenshots">Portafolio</a></li>
+                        <li><a class="nav-link" href="diseña.php">Diseña Aquí</a></li>
                         <!--<li><a class="nav-link" href="#pricing">Pricing</a></li>
                         <li><a class="nav-link" href="#testimonials">Clients</a></li>
                         <li><a class="nav-link" href="#purchase">Purchase</a></li>
