@@ -8,7 +8,7 @@
     
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Site CSS -->
-    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="css/">    
     <!-- ALL VERSION CSS -->
     <link rel="stylesheet" href="css/versions.css">
     <!-- Responsive CSS -->
@@ -18,7 +18,8 @@
 
     <link rel="stylesheet" href="css/formulario.css">
 </head>
-<body>
+<body background="bg-img.jpg">
+     
 <header class="header header_style_01">
         <nav class="navbar header-nav navbar-expand-lg">
             <div class="container">

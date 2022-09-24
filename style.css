@@ -79,6 +79,7 @@ body.demos .service-widget {
 
 body.demos .container-fluid {
     max-width: 1080px
+    align-items= "flex-star";
 }
 
 a {
@@ -114,6 +115,7 @@ h1 {
 
 h2 {
     font-size: 22px
+    align-items: center;
 }
 
 h3 {

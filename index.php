@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
  
      <!-- Site Metas -->
-    <title>Appfast - Responsive OnePage HTML5 Template</title>  
+    <title>Mobile-Skin</title>  
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -65,7 +65,7 @@
     <header class="header header_style_01">
         <nav class="navbar header-nav navbar-expand-lg">
             <div class="container">
-				<a class="navbar-brand" href=#home><img src="images/logos/funda-mobile.svg" alt="" width="150px" height="75px"></a>
+				<a class="navbar-brand" href=#home><img src="images/logos/funda-mobile.svg" alt="" width="200px" height="100px"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarApp" aria-controls="navbarApp" aria-expanded="false" aria-label="Toggle navigation">
 					<span></span>
 					<span></span>
@@ -91,15 +91,12 @@
             <div class="row">
                 <div class="col-md-6 col-sm-12">
                     <div class="big-tagline">
-                        <h2>Familiarize Your Creative Apps</h2>
-                        <p class="lead">With Appfast responsive landing page template, you can showcase your next creative & amazing apps!</p>
+                        <h2>¡Crea tu funda a tu gusto!</h2>
                     </div>
                 </div>
-                <div class="app_iphone_01 wow slideInUp hidden-xs hidden-sm" data-wow-duration="1s" data-wow-delay="0.2s">
+                <div data-wow-duration="1s" data-wow-delay="0.2s">
                     <img src="uploads/Fundas-personalizadas.webp" alt="" class="img-fluid">
                 </div>
-                <div class="app_iphone_02 wow slideInUp hidden-xs hidden-sm" data-wow-duration="1s" data-wow-delay="0.5s">
-                    <img src="uploads/app_iphone_02.png" alt="" class="img-fluid">
                 </div>
             </div><!-- end row -->
         </div><!-- end container -->
@@ -249,16 +246,15 @@
     <div id="screenshots" class="section wb">
         <div class="container">
             <div class="section-title text-center">
-                <h3>Screenshots of the App</h3>
-                <p class="lead">Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum<br>auctor nisi elit consequat ipsum, nec sagittis sem!</p>
+                <h3>Nuestro Portafolio</h3>
             </div><!-- end title -->
 
             <div class="owl-screenshots owl-carousel owl-theme">
                 <div class="owl-screen">
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
-                            <a href="uploads/screenshot_01.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/screenshot_01.png" alt="" class="img-fluid img-rounded">
+                            <a href="uploads/funda2.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                            <img src="uploads/funda2.png" alt="" class="img-fluid img-rounded">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
@@ -267,8 +263,8 @@
                 <div class="owl-screen">
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
-                            <a href="uploads/screenshot_02.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/screenshot_02.png" alt="" class="img-fluid img-rounded">
+                            <a href="uploads/funda3.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                            <img src="uploads/funda3.png" alt="" class="img-fluid img-rounded">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
@@ -277,8 +273,8 @@
                 <div class="owl-screen">
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
-                            <a href="uploads/screenshot_03.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/screenshot_03.png" alt="" class="img-fluid img-rounded">
+                            <a href="uploads/funda4.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                            <img src="uploads/funda4.png" alt="" class="img-fluid img-rounded">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
@@ -287,8 +283,8 @@
                 <div class="owl-screen">
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
-                            <a href="uploads/screenshot_04.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/screenshot_04.png" alt="" class="img-fluid img-rounded">
+                            <a href="uploads/funda5" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                            <img src="uploads/funda5" alt="" class="img-fluid img-rounded">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
@@ -297,8 +293,8 @@
                 <div class="owl-screen">
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
-                            <a href="uploads/screenshot_05.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/screenshot_05.png" alt="" class="img-fluid img-rounded">
+                            <a href="uploads/funda6.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                            <img src="uploads/funda6.png" alt="" class="img-fluid img-rounded">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
@@ -307,8 +303,8 @@
                 <div class="owl-screen">
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
-                            <a href="uploads/screenshot_06.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/screenshot_06.png" alt="" class="img-fluid img-rounded">
+                            <a href="uploads/funda.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                            <img src="uploads/funda.png" alt="" class="img-fluid img-rounded">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
@@ -317,8 +313,8 @@
                 <div class="owl-screen">
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
-                            <a href="uploads/screenshot_01.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/screenshot_01.png" alt="" class="img-fluid img-rounded">
+                            <a href="uploads/funda2.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                            <img src="uploads/funda2.png" alt="" class="img-fluid img-rounded">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
@@ -327,8 +323,8 @@
                 <div class="owl-screen">
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
-                            <a href="uploads/screenshot_02.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/screenshot_02.png" alt="" class="img-fluid img-rounded">
+                            <a href="uploads/funda3.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                            <img src="uploads/funda3.png" alt="" class="img-fluid img-rounded">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
@@ -337,8 +333,8 @@
                 <div class="owl-screen">
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
-                            <a href="uploads/screenshot_03.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/screenshot_03.png" alt="" class="img-fluid img-rounded">
+                            <a href="uploads/funda4.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                            <img src="uploads/funda4.png" alt="" class="img-fluid img-rounded">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
@@ -347,8 +343,8 @@
                 <div class="owl-screen">
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
-                            <a href="uploads/screenshot_04.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/screenshot_04.png" alt="" class="img-fluid img-rounded">
+                            <a href="uploads/funda5" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                            <img src="uploads/funda5" alt="" class="img-fluid img-rounded">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
@@ -357,8 +353,8 @@
                 <div class="owl-screen">
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
-                            <a href="uploads/screenshot_05.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/screenshot_05.png" alt="" class="img-fluid img-rounded">
+                            <a href="uploads/funda6.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                            <img src="uploads/funda6.png" alt="" class="img-fluid img-rounded">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
@@ -367,8 +363,8 @@
                 <div class="owl-screen">
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
-                            <a href="uploads/screenshot_06.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/screenshot_06.png" alt="" class="img-fluid img-rounded">
+                            <a href="uploads/funda.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                            <img src="uploads/funda.png" alt="" class="img-fluid img-rounded">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
@@ -405,7 +401,7 @@
     <div id="team" class="section wb">
         <div class="container">
             <div class="section-title text-center">
-                <h3>The Dev Team</h3>
+                <h3>Nosotros</h3>
                 <p class="lead">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, true generator<br> on the Internet. It uses a dictionary of over..</p>
             </div><!-- end title -->
 
