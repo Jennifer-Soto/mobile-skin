@@ -111,9 +111,10 @@
                         <h2>¡Crea tu funda a tu gusto!</h2>
                     </div>
                 </div>
-                <div data-wow-duration="1s" data-wow-delay="0.2s">
+                <div data-wow-duration="1s" data-wow-delay="0.2s" class=" wow slideInUp hidden-xs hidden-sm">
                     <img src="uploads/Fundas-personalizadas.webp" alt="" class="img-fluid">
                 </div>
+                
                 </div>
             </div><!-- end row -->
         </div><!-- end container -->
