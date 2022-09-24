@@ -258,7 +258,7 @@
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
                             <a href="uploads/funda2.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda2.png" alt="" class="img-fluid img-rounded">
+                            <img src="uploads/funda2.png" alt="" class="img-fluid img-rounded img-size">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
@@ -268,7 +268,7 @@
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
                             <a href="uploads/funda3.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda3.png" alt="" class="img-fluid img-rounded">
+                            <img src="uploads/funda3.png" alt="" class="img-fluid img-rounded img-size">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
@@ -278,7 +278,7 @@
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
                             <a href="uploads/funda4.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda4.png" alt="" class="img-fluid img-rounded">
+                            <img src="uploads/funda4.png" alt="" class="img-fluid img-rounded img-size">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
@@ -288,7 +288,7 @@
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
                             <a href="uploads/funda5" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda5" alt="" class="img-fluid img-rounded">
+                            <img src="uploads/funda5" alt="" class="img-fluid img-rounded img-size">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
@@ -298,7 +298,7 @@
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
                             <a href="uploads/funda6.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda6.png" alt="" class="img-fluid img-rounded">
+                            <img src="uploads/funda6.png" alt="" class="img-fluid img-rounded img-size">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
@@ -308,7 +308,7 @@
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
                             <a href="uploads/funda.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda.png" alt="" class="img-fluid img-rounded">
+                            <img src="uploads/funda.png" alt="" class="img-fluid img-rounded img-size">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
@@ -412,7 +412,7 @@
             <div class="row dev-list text-center">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                     <div class="widget clearfix">
-                        <img src="uploads/jenni.jpg" alt="" class="img-fluid rounded-circle">
+                        <img src="uploads/jenni.jpg" alt="" class="img-fluid rounded-circle img-size-profile">
                         <div class="widget-title">
                             <h3>Jenni Soto</h3>
                             <small></small>
@@ -429,7 +429,7 @@
 
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                     <div class="widget clearfix">
-                        <img src="uploads/Michael.jpg" alt="" class="img-fluid rounded-circle">
+                        <img src="uploads/Michael.jpg" alt="" class="img-fluid rounded-circle img-size-profile">
                         <div class="widget-title">
                             <h3>Michael Daza</h3>
                             <small></small>

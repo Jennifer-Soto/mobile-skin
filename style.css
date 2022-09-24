@@ -2300,6 +2300,15 @@ body.app_version .dev-list .widget-title small{
     animation: sonarEffect 1.3s ease-out 75ms;
 }
 
+.img-size{
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+}
+.img-size-profile{
+    height: 300px;
+    object-fit: cover;
+}
 .form-style{
     display: flex;
     align-items: center ;
