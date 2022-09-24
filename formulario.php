@@ -43,27 +43,29 @@
                 </div>
             </nav>
         </header>
-        <div id="home" class="parallax first-section"  style="background-image:url('uploads/bg-img.jpg');">
-            <h1 style="color: white">HAZ TU COMPRA AQUÍ</h1>
+        <div id="home" class="parallax first-section"  style="background-image:url('uploads/bg-img.jpg');  ">
+            <div style="display:flex; justify-content: center; ">
+                <h1 style="color: white;  font-size:80px; " >HAZ TU COMPRA AQUÍ</h1>
+            </div>
             <form action="read.php" method ="post" class = " form-style "  >
                 
                 <label for="nombre" style="color: white">NOMBRE:</label><br>
-                <input id = "nombre" type="text" placeholder = "Escriba su nombre" name="nombre" ><br><br>
+                <input class="campo-input" id = "nombre" type="text" placeholder = "Escriba su nombre" name="nombre" ><br><br>
                 
                 <label for="apellido" style="color: white">APELLIDO:</label><br>
-                <input id = "apellido" type="text" placeholder = "Escriba su apellido" name="apellido" ><br><br>
+                <input class="campo-input" id = "apellido" type="text" placeholder = "Escriba su apellido" name="apellido" ><br><br>
                 
                 <label for="cedula" style="color: white">CÉDULA:</label><br>
-                <input id = "cedula" type="number" placeholder = "Escriba su cedula" name="cedula" ><br><br>
+                <input class="campo-input" id = "cedula" type="number" placeholder = "Escriba su cedula" name="cedula" ><br><br>
                 
                 <label for="telefono" style="color: white">TELÉFONO:</label><br>
-                <input id = "telefono" type="number" placeholder = "Escriba su telefono" name="telefono" ><br><br>
+                <input class="campo-input" id = "telefono" type="number" placeholder = "Escriba su telefono" name="telefono" ><br><br>
                 
                 <label for="direccion" style="color: white">DIRECCIÓN:</label><br>
-                <input id = "direccion" type="text" placeholder = "Escriba su direccion" name="direccion" ><br><br>
+                <input class="campo-input" id = "direccion" type="text" placeholder = "Escriba su direccion" name="direccion" ><br><br>
                 
                 <label for="correo" style="color: white">CORREO:</label><br>
-                <input id = "correo" type="text" placeholder = "Escriba su correo" name="correo" ><br><br>
+                <input class="campo-input" id = "correo" type="text" placeholder = "Escriba su correo" name="correo" ><br><br>
                 
                 <button class="btn-primary"> Enviar </button>
                 

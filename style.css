@@ -2302,6 +2302,16 @@ body.app_version .dev-list .widget-title small{
 
 .form-style{
     display: flex;
-    justify-content: center;
+    align-items: center ;
     flex-direction: column;
+    
+}
+
+.campo-input{
+    width: 800px;
+    color: white;
+    background-color: #5758FA;
+}
+.campo-input::placeholder{
+    color: white;
 }
