@@ -51,7 +51,7 @@
     <img class="card-img-top" src="images/marca/apple-logo.png" style = "object-fit:scale-down; " alt="200" width="200px" height = " 200px "> 
     <div class="card-body">
         <h4 class="card-title">Title</h4>
-        <a name="" id="" class="btn btn-primary" href="#" role="button">Ver mas</a>
+        <a name="" id="" class="btn btn-primary" href="dispositivos/apple/ap-dis.php" role="button">Ver mas</a>
     </div>
 </div>
 </div>

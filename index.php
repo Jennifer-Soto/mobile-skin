@@ -1,3 +1,16 @@
+<?php
+  session_start();
+   
+  // Controlo si el usuario ya está logueado en el sistema.
+  if(isset($_SESSION['email'])){
+    // Le doy la bienvenida al usuario.
+    echo 'Bienvenido <strong>' . $_SESSION['email'] . '</strong>, <a href="login/index.html">cerrar sesión</a>';
+  }else{
+    // Si no está logueado lo redireccion a la página de login.
+    header("HTTP/1.1 302 Moved Temporarily"); 
+    header("Location: login/cerrar-sesion.php"); 
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,13 +22,17 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
  
      <!-- Site Metas -->
+<<<<<<< HEAD
     <title>Mobile-Skin</title>  
+=======
+    <title>Mobile Skin</title>  
+>>>>>>> 60898219d086ebba482d5cb0f5315b38c2df71bc
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/logos/funda-mobile.svg" type="image/x-icon" />
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
     <!-- Bootstrap CSS -->
@@ -425,7 +442,7 @@
 
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                     <div class="widget clearfix">
-                        <img src="uploads/.jpg" alt="" class="img-fluid rounded-circle">
+                        <img src="uploads/Michael.jpg" alt="" class="img-fluid rounded-circle">
                         <div class="widget-title">
                             <h3>Michael Daza</h3>
                             <small></small>
@@ -434,8 +451,8 @@
                         <p></p>
 
                         <div class="footer-social">
-                            <a href="#" class="btn global-radius"><i class="fa fa-facebook"></i></a>
-                            <a href="#" class="btn global-radius"><i class="fa fa-github"></i></a>
+                            <a href="https://www.facebook.com/maicol.daza.904/" class="btn global-radius"><i class="fa fa-facebook"></i></a>
+                            <a href="https://github.com/MichaelD002" class="btn global-radius"><i class="fa fa-github"></i></a>
                         </div>
                     </div><!--widget -->
                 </div><!-- end col -->
