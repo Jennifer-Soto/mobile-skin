@@ -363,7 +363,6 @@ a img.aligncenter {
 	color: #ffffff;
 	background-color: #AD1457;
 	line-height: 25px;
-	float: right;
 	font-weight: 500;
 }
 
@@ -607,7 +606,6 @@ body.app_version .header_style_01.fixed-menu{
     overflow: hidden;
     position: relative;
     background-position: center center;
-    vertical-align: sub;
     width: 100%;
     z-index: 2;
 }
@@ -2289,7 +2287,7 @@ body.app_version .dev-list .widget-title small{
 }
  .highlight.active .highlight-title span {
     background: crimson;
-     webkit-transform: scale(0.93);
+    -webkit-transform: scale(0.93);
     -moz-transform: scale(0.93);
     -ms-transform: scale(0.93);
     transform: scale(0.93);
