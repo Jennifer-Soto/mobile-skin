@@ -1,15 +1,5 @@
 <?php
-  session_start();
-   
-  // Controlo si el usuario ya está logueado en el sistema.
-  if(isset($_SESSION['email'])){
-    // Le doy la bienvenida al usuario.
-    echo 'Bienvenido <strong>' . $_SESSION['email'] . '</strong>, <a href="login/index.html">cerrar sesión</a>';
-  }else{
-    // Si no está logueado lo redireccion a la página de login.
-    header("HTTP/1.1 302 Moved Temporarily"); 
-    header("Location: login/cerrar-sesion.php"); 
-  }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,11 +12,7 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
  
      <!-- Site Metas -->
-<<<<<<< HEAD
     <title>Mobile-Skin</title>  
-=======
-    <title>Mobile Skin</title>  
->>>>>>> 60898219d086ebba482d5cb0f5315b38c2df71bc
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
