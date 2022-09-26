@@ -363,7 +363,6 @@ a img.aligncenter {
 	color: #ffffff;
 	background-color: #AD1457;
 	line-height: 25px;
-	float: right;
 	font-weight: 500;
 }
 
@@ -406,7 +405,8 @@ a img.aligncenter {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover{
-	color: #ffffff;
+	font-size: 20px;
+    color: #AD1457;
 	border-radius: 2px;
 }
 
@@ -606,7 +606,6 @@ body.app_version .header_style_01.fixed-menu{
     overflow: hidden;
     position: relative;
     background-position: center center;
-    vertical-align: sub;
     width: 100%;
     z-index: 2;
 }
@@ -2288,7 +2287,7 @@ body.app_version .dev-list .widget-title small{
 }
  .highlight.active .highlight-title span {
     background: crimson;
-     webkit-transform: scale(0.93);
+    -webkit-transform: scale(0.93);
     -moz-transform: scale(0.93);
     -ms-transform: scale(0.93);
     transform: scale(0.93);
@@ -2299,6 +2298,27 @@ body.app_version .dev-list .widget-title small{
     animation: sonarEffect 1.3s ease-out 75ms;
 }
 
+.img-size{
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+}
+.img-size-profile{
+    height: 300px;
+    object-fit: cover;
+}
+.form-style{
+    display: flex;
+    align-items: center ;
+    flex-direction: column;
+    
+}
 
-
-
+.campo-input{
+    width: 800px;
+    color: white;
+    background-color: #5758FA;
+}
+.campo-input::placeholder{
+    color: white;
+}

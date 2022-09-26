@@ -1,15 +1,5 @@
 <?php
-  session_start();
-   
-  // Controlo si el usuario ya está logueado en el sistema.
-  if(isset($_SESSION['email'])){
-    // Le doy la bienvenida al usuario.
-    echo 'Bienvenido <strong>' . $_SESSION['email'] . '</strong>, <a href="login/index.html">cerrar sesión</a>';
-  }else{
-    // Si no está logueado lo redireccion a la página de login.
-    header("HTTP/1.1 302 Moved Temporarily"); 
-    header("Location: login/cerrar-sesion.php"); 
-  }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,11 +12,15 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
  
      <!-- Site Metas -->
+<<<<<<< HEAD
 
     <title> Mobile-Skin</title>  
 
     <title>Mobile Skin</title>  
 
+=======
+    <title>Mobile-Skin</title>  
+>>>>>>> 3478ae477169be93016f6587f644bb1f8f2eecf9
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -272,7 +266,7 @@
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
                             <a href="uploads/funda2.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda2.png" alt="" class="img-fluid img-rounded">
+                            <img src="uploads/funda2.png" alt="" class="img-fluid img-rounded img-size">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
@@ -282,7 +276,7 @@
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
                             <a href="uploads/funda3.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda3.png" alt="" class="img-fluid img-rounded">
+                            <img src="uploads/funda3.png" alt="" class="img-fluid img-rounded img-size">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
@@ -292,7 +286,7 @@
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
                             <a href="uploads/funda4.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda4.png" alt="" class="img-fluid img-rounded">
+                            <img src="uploads/funda4.png" alt="" class="img-fluid img-rounded img-size">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
@@ -302,7 +296,7 @@
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
                             <a href="uploads/funda5" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda5" alt="" class="img-fluid img-rounded">
+                            <img src="uploads/funda5" alt="" class="img-fluid img-rounded img-size">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
@@ -312,7 +306,7 @@
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
                             <a href="uploads/funda6.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda6.png" alt="" class="img-fluid img-rounded">
+                            <img src="uploads/funda6.png" alt="" class="img-fluid img-rounded img-size">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
@@ -322,7 +316,7 @@
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
                             <a href="uploads/funda.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda.png" alt="" class="img-fluid img-rounded">
+                            <img src="uploads/funda.png" alt="" class="img-fluid img-rounded img-size">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
@@ -426,7 +420,7 @@
             <div class="row dev-list text-center">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                     <div class="widget clearfix">
-                        <img src="uploads/jenni.jpg" alt="" class="img-fluid rounded-circle">
+                        <img src="uploads/jenni.jpg" alt="" class="img-fluid rounded-circle img-size-profile">
                         <div class="widget-title">
                             <h3>Jenni Soto</h3>
                             <small></small>
@@ -443,7 +437,7 @@
 
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                     <div class="widget clearfix">
-                        <img src="uploads/Michael.jpg" alt="" class="img-fluid rounded-circle">
+                        <img src="uploads/Michael.jpg" alt="" class="img-fluid rounded-circle img-size-profile">
                         <div class="widget-title">
                             <h3>Michael Daza</h3>
                             <small></small>
