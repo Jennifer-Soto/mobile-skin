@@ -12,15 +12,10 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
  
      <!-- Site Metas -->
-<<<<<<< HEAD
 
-    <title> Mobile-Skin</title>  
 
     <title>Mobile Skin</title>  
 
-=======
-    <title>Mobile-Skin</title>  
->>>>>>> 3478ae477169be93016f6587f644bb1f8f2eecf9
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
