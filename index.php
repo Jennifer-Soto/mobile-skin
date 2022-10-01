@@ -317,66 +317,6 @@
                     </div><!-- end service -->
                 </div><!-- end col -->
 
-                <div class="owl-screen">
-                    <div class="service-widget">
-                        <div class="post-media entry wow fadeIn">
-                            <a href="uploads/funda2.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda2.png" alt="" class="img-fluid img-rounded">
-                            <div class="magnifier"></div>
-                        </div>
-                    </div><!-- end service -->
-                </div><!-- end col -->
-
-                <div class="owl-screen">
-                    <div class="service-widget">
-                        <div class="post-media entry wow fadeIn">
-                            <a href="uploads/funda3.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda3.png" alt="" class="img-fluid img-rounded">
-                            <div class="magnifier"></div>
-                        </div>
-                    </div><!-- end service -->
-                </div><!-- end col -->
-
-                <div class="owl-screen">
-                    <div class="service-widget">
-                        <div class="post-media entry wow fadeIn">
-                            <a href="uploads/funda4.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda4.png" alt="" class="img-fluid img-rounded">
-                            <div class="magnifier"></div>
-                        </div>
-                    </div><!-- end service -->
-                </div><!-- end col -->
-
-                <div class="owl-screen">
-                    <div class="service-widget">
-                        <div class="post-media entry wow fadeIn">
-                            <a href="uploads/funda5" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda5" alt="" class="img-fluid img-rounded">
-                            <div class="magnifier"></div>
-                        </div>
-                    </div><!-- end service -->
-                </div><!-- end col -->
-
-                <div class="owl-screen">
-                    <div class="service-widget">
-                        <div class="post-media entry wow fadeIn">
-                            <a href="uploads/funda6.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda6.png" alt="" class="img-fluid img-rounded">
-                            <div class="magnifier"></div>
-                        </div>
-                    </div><!-- end service -->
-                </div><!-- end col -->
-
-                <div class="owl-screen">
-                    <div class="service-widget">
-                        <div class="post-media entry wow fadeIn">
-                            <a href="uploads/funda.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda.png" alt="" class="img-fluid img-rounded">
-                            <div class="magnifier"></div>
-                        </div>
-                    </div><!-- end service -->
-                </div><!-- end col -->
-
             </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end section -->
