@@ -94,7 +94,7 @@
 
     <div id="home" class="parallax first-section" style="background-image:url('uploads/bg-img.jpg');">
         <div class="container">
-            <div class="row">
+            <div class="row" style = "align-items:center;  ">
                 <div class="col-md-6 col-sm-12">
                     <div class="big-tagline">
                         <h2>¡Crea tu funda a tu gusto!</h2>
@@ -112,7 +112,7 @@
     <div id="features" class="section wb">
         <div class="container">
             <div class="section-title text-center">
-                <h3>The App Features</h3>
+                <h3 style = "text-transform: uppercase; color: #AD1457; "> Escoge tu diseño </h3>
                 <p class="lead">Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum<br>auctor nisi elit consequat ipsum, nec sagittis sem!</p>
             </div><!-- end title -->
 
@@ -124,7 +124,7 @@
 						<li class="highlight lhgh" data-index="0">
 							<i class="flaticon-wordpress-logo effect-1" ></i>
 							<div class="fl-inner">
-								<h4>WordPress Installation</h4>
+								<h4> Fundas para Moviles </h4>
 								<p>Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet.</p>
 							</div>
 						</li><!-- .highlight .left-row -->
@@ -224,31 +224,7 @@
         </div><!-- end container -->
     </div><!-- end section -->
 
-    <div class="how-its-work clearfix">
-        <div class="hc colon1">
-            <h2>1</h2>
-            <h3>Go App Store</h3>
-            <p class="lead">Lorem Ipsum dolroin gravida nibh vel velit aliquet. Aenean sollicitudin, lorem quis bibendum..</p>
-        </div><!-- end col -->
 
-        <div class="hc colon2">
-            <h2>2</h2>
-            <h3>Create an Account</h3>
-            <p class="lead">Lorem Ipsum dolroin gravida nibh vel velit aliquet. Aenean sollicitudin, lorem quis bibendum..</p>
-        </div><!-- end col -->
-
-        <div class="hc colon3">
-            <h2>3</h2>
-            <h3>Download the App</h3>
-            <p class="lead">Lorem Ipsum dolroin gravida nibh vel velit aliquet. Aenean sollicitudin, lorem quis bibendum..</p>
-        </div><!-- end col -->  
-
-        <div class="hc colon4">
-            <h2>4</h2>
-            <h3>Enjoy & Rate us!</h3>
-            <p class="lead">Lorem Ipsum dolroin gravida nibh vel velit aliquet. Aenean sollicitudin, lorem quis bibendum..</p>
-        </div><!-- end col -->  
-    </div><!-- end how-its-work -->
 
     <div id="screenshots" class="section wb">
         <div class="container">
@@ -317,65 +293,6 @@
                     </div><!-- end service -->
                 </div><!-- end col -->
 
-                <div class="owl-screen">
-                    <div class="service-widget">
-                        <div class="post-media entry wow fadeIn">
-                            <a href="uploads/funda2.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda2.png" alt="" class="img-fluid img-rounded">
-                            <div class="magnifier"></div>
-                        </div>
-                    </div><!-- end service -->
-                </div><!-- end col -->
-
-                <div class="owl-screen">
-                    <div class="service-widget">
-                        <div class="post-media entry wow fadeIn">
-                            <a href="uploads/funda3.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda3.png" alt="" class="img-fluid img-rounded">
-                            <div class="magnifier"></div>
-                        </div>
-                    </div><!-- end service -->
-                </div><!-- end col -->
-
-                <div class="owl-screen">
-                    <div class="service-widget">
-                        <div class="post-media entry wow fadeIn">
-                            <a href="uploads/funda4.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda4.png" alt="" class="img-fluid img-rounded">
-                            <div class="magnifier"></div>
-                        </div>
-                    </div><!-- end service -->
-                </div><!-- end col -->
-
-                <div class="owl-screen">
-                    <div class="service-widget">
-                        <div class="post-media entry wow fadeIn">
-                            <a href="uploads/funda5" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda5" alt="" class="img-fluid img-rounded">
-                            <div class="magnifier"></div>
-                        </div>
-                    </div><!-- end service -->
-                </div><!-- end col -->
-
-                <div class="owl-screen">
-                    <div class="service-widget">
-                        <div class="post-media entry wow fadeIn">
-                            <a href="uploads/funda6.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda6.png" alt="" class="img-fluid img-rounded">
-                            <div class="magnifier"></div>
-                        </div>
-                    </div><!-- end service -->
-                </div><!-- end col -->
-
-                <div class="owl-screen">
-                    <div class="service-widget">
-                        <div class="post-media entry wow fadeIn">
-                            <a href="uploads/funda.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda.png" alt="" class="img-fluid img-rounded">
-                            <div class="magnifier"></div>
-                        </div>
-                    </div><!-- end service -->
-                </div><!-- end col -->
 
             </div><!-- end row -->
         </div><!-- end container -->
@@ -409,7 +326,7 @@
         <div class="container">
             <div class="section-title text-center">
                 <h3>Nosotros</h3>
-                <p class="lead">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, true generator<br> on the Internet. It uses a dictionary of over..</p>
+                
             </div><!-- end title -->
 
             <div class="row dev-list text-center">
@@ -447,35 +364,7 @@
                     </div><!--widget -->
                 </div><!-- end col -->
 
-    <div class="parallax section" style="background-image:url('uploads/ben_img_2.jpg');">
-        <div class="container">
-            <div class="row text-left stat-wrap">
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-apple"></i></span>
-                    <p class="stat_count_download">12500</p>
-                    <h3>App Store</h3>
-                </div><!-- end col -->
 
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-amazon-logo"></i></span>
-                    <p class="stat_count_download">31000</p>
-                    <h3>Amazon</h3>
-                </div><!-- end col -->
-
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-android"></i></span>
-                    <p class="stat_count_download">15788</p>
-                    <h3>Google Play</h3>
-                </div><!-- end col -->
-
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-windows"></i></span>
-                    <p class="stat_count_download">21000</p>
-                    <h3>Windows App</h3>
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
 
     <!--<div id="pricing" class="section lb">
         <div class="container">
@@ -558,126 +447,7 @@
         </div><!-- end container 
     </div><!-- end section -->
 
-    <div id="testimonials" class="section wb">
-        <div class="container">
-            <div class="section-title text-center">
-                <h3>Happy Clients</h3>
-                <p class="lead">We thanks for all our awesome testimonials! There are hundreds of our happy customers! <br>Let's see what others say about Appfast website template!</p>
-            </div><!-- end title -->
 
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <div class="testi-carousel owl-carousel owl-theme">
-                        <div class="testimonial clearfix">
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
-                                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
-                            </div>
-                            <div class="testi-meta">
-                                <img src="uploads/testi_01.png" alt="" class="img-fluid alignleft">
-                                <h4>James Fernando <small>- Manager of Racer</small></h4>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-
-                        <div class="testimonial clearfix">
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
-                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
-                            </div>
-                            <div class="testi-meta">
-                                <img src="uploads/testi_02.png" alt="" class="img-fluid alignleft">
-                                <h4>Jacques Philips <small>- Designer</small></h4>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-
-                        <div class="testimonial clearfix">
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
-                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
-                            </div>
-                            <div class="testi-meta">
-                                <img src="uploads/testi_03.png" alt="" class="img-fluid alignleft">
-                                <h4>Venanda Mercy <small>- Newyork City</small></h4>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-                        <div class="testimonial clearfix">
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
-                                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
-                            </div>
-                            <div class="testi-meta">
-                                <img src="uploads/testi_01.png" alt="" class="img-fluid alignleft">
-                                <h4>James Fernando <small>- Manager of Racer</small></h4>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-
-                        <div class="testimonial clearfix">
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
-                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
-                            </div>
-                            <div class="testi-meta">
-                                <img src="uploads/testi_02.png" alt="" class="img-fluid alignleft">
-                                <h4>Jacques Philips <small>- Designer</small></h4>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-
-                        <div class="testimonial clearfix">
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
-                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
-                            </div>
-                            <div class="testi-meta">
-                                <img src="uploads/testi_03.png" alt="" class="img-fluid alignleft">
-                                <h4>Venanda Mercy <small>- Newyork City</small></h4>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div><!-- end testimonial -->
-                    </div><!-- end carousel -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
-
-    <div id="purchase" class="parallax section db" style="background-image:url('uploads/pr_bg.jpg');">
-        <div class="container">
-            <div class="section-title text-center">
-                <h2>Started from $90.00</h2>
-                <h3>Purchase Now!</h3>
-                <p class="lead">We thanks for all our awesome testimonials! There are hundreds of our happy customers! <br>Let's see what others say about Appfast website template!</p>
-            </div><!-- end title -->
-
-            <div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="btn-buy apple-button">
-                        <a href="#"><i class="flaticon-android alignleft"></i> Download on the <strong>Google Play</strong></a>
-                    </div>
-                </div><!-- end col --> 
-				
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="btn-buy apple-button">
-                        <a href="#"><i class="flaticon-apple alignleft"></i> Download on the <strong>App Store</strong></a>
-                    </div>
-                </div><!-- end col -->  
-
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="btn-buy apple-button">
-                        <a href="#"><i class="flaticon-windows alignleft"></i> Download on the <strong>Windows</strong></a>
-                    </div>
-                </div><!-- end col -->  
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
 
 
     <div id="support" class="section" style="background-image:url('uploads/form_bg.jpg');">
@@ -721,9 +491,7 @@
         </div><!-- end container -->
     </div><!-- end section -->
 
-    <section class="section nopad cac text-center">
-        <a href="#"><h3>Interesting our awesome web design services? Just drop an email to us and get quote for free!</h3></a>
-    </section>
+
 
     <footer class="footer">
         <div class="container">
@@ -753,22 +521,9 @@
                     </div><!-- end clearfix -->
                 </div><!-- end col -->
 
-                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                    <div class="footer-distributed widget clearfix">
-                        <div class="widget-title">
-                            <h3>Newsletter</h3>
-							<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                        </div>
-						<div class="footer-right">
-							<form method="get" action="#">
-								<input placeholder="Subscribe our newsletter.." name="search">
-								<i class="fa fa-envelope-o"></i>
-							</form>
-						</div>
-                    </div><!-- end clearfix -->
-                </div><!-- end col -->
+                
 
-                <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                     <div class="widget clearfix">
                         <div class="widget-title">
                             <h3>Social</h3>
@@ -791,7 +546,7 @@
             <div class="footer-distributed">
                 <div class="footer-left">                    
                     <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">Appfast</a> Design By : 
-					<a href="https://html.design/">html design</a></p>
+				</p>
                 </div>
             </div>
         </div><!-- end container -->
