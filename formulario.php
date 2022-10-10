@@ -19,6 +19,7 @@
     
 </head>
 <body>
+    <!-- Barra de navegación -->
     <header class="header header_style_01">
         <nav class="navbar header-nav navbar-expand-lg">
             <div class="container">
@@ -47,6 +48,7 @@
             <div style="display:flex; justify-content: center; ">
                 <h1 style="color: white;  font-size:80px; " >HAZ TU COMPRA AQUÍ</h1>
             </div>
+            <!-- Formulario -->
             <form action="read.php" method ="post" class = " form-style "  >
                 
                 <label for="nombre" style="color: white">NOMBRE:</label><br>
