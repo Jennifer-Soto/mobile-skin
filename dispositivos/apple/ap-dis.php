@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="../../style.css">    
     <!-- ALL VERSION CSS -->
     <link rel="stylesheet" href="../../css/versions.css">
-    <!-- Responsive CSS 
-    <link rel="stylesheet" href="css/responsive.css">-->
-    <!-- Custom CSS 
-    <link rel="stylesheet" href="css/custom.css">-->
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="../../css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../../css/custom.css">
 
     <link rel="stylesheet" href="../../css/formulario.css">
 </head>
@@ -42,3 +42,10 @@
             </div>
         </nav>
     </header>
+    <div id="home" class="parallax first-section"  style="background-image:url('uploads/bg-img.jpg');  ">
+        <div style="display:flex; justify-content: center;">
+            <h1 style="color: white;  font-size:80px; " >ELIGE TU MODELO</h1>
+        </div>
+    </div>
+        
+</body>

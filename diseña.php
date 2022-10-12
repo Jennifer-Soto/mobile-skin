@@ -43,15 +43,21 @@
             </div>
         </nav>
     </header>
-    <div id="home" class="parallax first-section"  style="background-image:url('uploads/bg-img.jpg');">
+    <div id="home" class="parallax first-section"  style="background-image:url('uploads/bg-img.jpg');  ">
+            <div style="display:flex; justify-content: center;">
+                <h1 style="color: white;  font-size:80px; " >ELIGE TU MARCA</h1>
+            </div>
 <div class="container">
     <div class="row">
     <div class="col-md-3">
 <div class="card">
     <img class="card-img-top" src="images/marca/apple-logo.png" style = "object-fit:scale-down; " alt="200" width="200px" height = " 200px "> 
     <div class="card-body">
-        <h4 class="card-title">Title</h4>
-        <a name="" id="" class="btn btn-primary" href="dispositivos/apple/ap-dis.php" role="button">Ver mas</a>
+        <select name="select" class= "btn-primary">
+  <option value="value1">Iphone 12 PRO</option>
+  <option value="value2">iphone 13 PRO MAX</option>
+  <option value="value3">Iphone 14 PRO MAX</option>
+</select>
     </div>
 </div>
 </div>
@@ -59,8 +65,11 @@
 <div class="card">
     <img class="card-img-top" src="images/marca/HUAWEI-LOGO.webp" style = "object-fit:scale-down; " alt="200" width="200px" height = " 200px ">
     <div class="card-body">
-        <h4 class="card-title">Title</h4>
-        <p class="card-text">Text</p>
+    <select name="select" class= "btn-primary">
+  <option value="value1">Mate 20 lite</option>
+  <option value="value2">Y9 2019</option>
+  <option value="value3">P30</option>
+</select>   
     </div>
 </div>
 </div>
@@ -68,8 +77,11 @@
 <div class="card">
     <img class="card-img-top" src="images/marca/Samsung-logo.webp" style = "object-fit:scale-down; " alt="200" width="200px" height = " 200px ">
     <div class="card-body">
-        <h4 class="card-title">Title</h4>
-        <p class="card-text">Text</p>
+    <select name="select" class= "btn-primary">
+  <option value="value1">A20s</option>
+  <option value="value2">A10s</option>
+  <option value="value3">S22</option>
+</select>    
     </div>
 </div>
 </div>
@@ -78,8 +90,11 @@
     <img class="card-img-top" src="images/marca/Xiaomi_logo.png" style = "object-fit:scale-down; " alt="200" width="200px" height = " 200px ">
     <a href="index.php"></a>
     <div class="card-body">
-        <h4 class="card-title">Title</h4>
-        <p class="card-text">Text</p>
+    <select name="select" class= "btn-primary">
+  <option value="value1">Redmi 8</option>
+  <option value="value2">Redmi 10 PRO</option>
+  <option value="value3">POCO X3 PRO</option>
+</select>   
     </div>
 </div>
 </div>

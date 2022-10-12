@@ -213,8 +213,8 @@
                 <div class="owl-screen">
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
-                            <a href="uploads/funda3.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda3.png" alt="" class="img-fluid img-rounded img-size">
+                            <a href="uploads/estuche.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                            <img src="uploads/estuche.png" alt="" class="img-fluid img-rounded img-size">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
@@ -243,8 +243,8 @@
                 <div class="owl-screen">
                     <div class="service-widget">
                         <div class="post-media entry wow fadeIn">
-                            <a href="uploads/funda6.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                            <img src="uploads/funda6.png" alt="" class="img-fluid img-rounded img-size">
+                            <a href="uploads/estuche2.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                            <img src="uploads/estuche2.png" alt="" class="img-fluid img-rounded img-size">
                             <div class="magnifier"></div>
                         </div>
                     </div><!-- end service -->
