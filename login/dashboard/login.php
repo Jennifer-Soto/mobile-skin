@@ -4,9 +4,10 @@ require"conexion.php";
 if($_POST){
     $usuario=$_POST['usuario'];
     $contraseña=$_POST['contraseña'];
-    $sql = "SELECT user_id, contraseña, usuario, tipo_usuario FROM usuario WHERE usuario='$usuario'";
+    $sql = "SELECT user_id, contraseña, usuarios, nombre, tipo_usuario FROM usuario WHERE usuarios='$usuario'";
 
-    $resultado = mysqli->query($sql);
+    $resultado = $mysqli->query($sql);
+    //echo $sql;
     $num=$resultado->num_rows;
 
     if($num>0){
@@ -16,10 +17,10 @@ if($_POST){
 
         if($contraseña_bd == $pass_c){
             $_SESSION['user_id']=$row['user_id'];
-            $_SESSION['usuario']=$row['usuario'];
+            $_SESSION['nombre']=$row['nombre'];
             $_SESSION['tipo_usuario']=$row['tipo_usuario'];
             
-            //header("LOCATION:index.php");
+            header("LOCATION:index.php");
 
         }else{
             echo"la contraseña es incorrecta";
@@ -73,9 +74,9 @@ if($_POST){
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
                                     </div>
-                                    <form class="user" method="POST" action="<?php echo $_server['php_self']; ?>"
+                                    <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>"
                                         <div class="form-group">
-                                            <input type="email" class="form-control form-control-user"
+                                            <input type="text" class="form-control form-control-user"
                                                 id="exampleInputEmail" aria-describedby="emailHelp" name="usuario"
                                                 placeholder="Ingrese su correo">
                                         </div>
@@ -90,7 +91,7 @@ if($_POST){
                                                     Me</label>
                                             </div>
                                         </div>
-                                        <button type="submit" href="../../index.php" class="btn btn-primary btn-user btn-block">
+                                        <button type="submit" class="btn btn-primary btn-user btn-block">
                                             Login
                                         </button>
                                         <hr>
