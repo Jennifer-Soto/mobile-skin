@@ -48,7 +48,7 @@
                         <li><a class="nav-link active" href="#home">Home</a></li>
                         <li><a class="nav-link" href="#team">Nosotros</a></li>
                         <li><a class="nav-link" href="#screenshots">Portafolio</a></li>
-                        <li><a class="nav-link" href="diseña.php">Diseña aquí</a></li>
+                        <li><a class="nav-link" href=""></a></li>
                         <li><a class="nav-link" href="formulario.php"><img src="images/carritoxd.png" alt="image" width="30px" height="30px"/></a></li>
                         <li><a class="nav-link active" href="login/index.html"> <button class="btn btn-primary ">Login</button>    </a></li>
 						<!--<li><a class="nav-link" href="#support">Support</a></li>-->
@@ -65,6 +65,7 @@
                 <div class="col-md-6 col-sm-12">
                     <div class="big-tagline">
                         <h2>¡Crea tu funda a tu gusto!</h2>
+                        <a href="diseña.php"><button class="btn btn-primary ">Empieza</button></a>
                     </div>
                 </div>
                 <div data-wow-duration="1s" data-wow-delay="0.2s" class=" wow slideInUp hidden-xs hidden-sm">
