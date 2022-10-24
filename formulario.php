@@ -45,7 +45,7 @@
             </nav>
         </header>
         <div id="home" class="parallax first-section"  style="background-image:url('uploads/bg-img.jpg');  ">
-            <div style="display:flex; justify-content: center; ">
+            <div style="display:flex; justify-content: center;">
                 <h1 style="color: white;  font-size:80px; " >HAZ TU COMPRA AQUÍ</h1>
             </div>
             <!-- Formulario -->
