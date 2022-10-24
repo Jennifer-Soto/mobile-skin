@@ -13,14 +13,14 @@ if($_POST){
     if($num>0){
         $row = $resultado ->fetch_assoc();
         $contraseña_bd = $row['contraseña'];
-        $pass_c= sha1($contraseña);
+        $pass_c= $contraseña;
 
         if($contraseña_bd == $pass_c){
             $_SESSION['user_id']=$row['user_id'];
             $_SESSION['nombre']=$row['nombre'];
             $_SESSION['tipo_usuario']=$row['tipo_usuario'];
             
-            header("LOCATION:index.php");
+            header("LOCATION:/dashboard/index.html");
 
         }else{
             echo"la contraseña es incorrecta";
@@ -83,6 +83,11 @@ if($_POST){
           <div class="col-sm-offset-2 col-sm-10">
             <button type="submit" class="btn btn-default">Sign in</button>
           </div>
+        </div>
+      </form>
+      <form action="../index.php" method="post">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="btn btn-default">Inicio</button>
         </div>
       </form>
     </div>
