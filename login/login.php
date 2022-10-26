@@ -1,6 +1,6 @@
 <?php
 require"conexion.php";
-
+session_start();
 if($_POST){
     $usuario=$_POST['usuario'];
     $contraseña=$_POST['password'];
@@ -19,9 +19,11 @@ if($_POST){
             $_SESSION['user_id']=$row['user_id'];
             $_SESSION['nombre']=$row['nombre'];
             $_SESSION['tipo_usuario']=$row['tipo_usuario'];
-            
-            header("LOCATION:/dashboard/index.html");
-
+            if($_SESSION['tipo_usuario']==1){
+              header("LOCATION:dashboard/index.php");
+            }else{
+              header("LOCATION: ../inicio/index.php");
+            }
         }else{
             echo"la contraseña es incorrecta";
         }
@@ -30,26 +32,6 @@ if($_POST){
         echo"NO EXISTES, Y NADIE TE QUIERE";
     }
 }
-?>
-<?php
-  session_start();
- 
-  // Obtengo los datos cargados en el formulario de login.
-  /*$usuario = $_POST['usuaro'];
-  $password = $_POST['password'];
-   
-  // Esto se puede remplazar por un usuario real guardado en la base de datos.
-  if($email == 'admin@xd.com' && $password == '1234'){
-    // Guardo en la sesión el email del usuario.
-    $_SESSION['email'] = $email;
-     
-    // Redirecciono al usuario a la página principal del sitio.
-    header("HTTP/1.1 302 Moved Temporarily"); 
-    header("Location: dashboard/index.html"); 
-  }else{
-    echo 'El email o password es incorrecto, <a href="index.html">vuelva a intenarlo</a>.<br/>';
-  }*/
-  session_destroy();
 ?>
 <!DOCTYPE html>
 <html>
