@@ -53,7 +53,6 @@
 <div class="card">
     <img class="card-img-top" src="images/marca/apple-logo.png" style = "object-fit:scale-down; " alt="200" width="200px" height = " 200px "> 
     <div class="card-body">
-<<<<<<< HEAD
     <form name="Apple" method="post" action="">
     <select name="destino" onchange="location.href=apple.destino.value;" class="btn-primary">
         <option value="value1">.....</option>        
