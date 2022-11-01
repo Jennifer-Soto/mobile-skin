@@ -78,7 +78,7 @@ if($_POST){
     </header>
     <div id="home" class="parallax first-section"  style="background-image:url('../uploads/bg-img.jpg');  ">
             <div style="display:flex; justify-content: center;">
-                <h1 style="color: white;  font-size:80px; " >Inicio de seccion</h1>
+                <h1 style="color: white;  font-size:80px; " >Inicio de session</h1>
             </div>
     <div class="container">
       <form class="form-horizontal" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">

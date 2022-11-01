@@ -9,6 +9,12 @@
     <title>Registrate:</title>
 </head>
 <body>
-    form
+    <div id="home" class="parallax first-section"  style="background-image:url('../uploads/bg-img.jpg');  ">
+            
+    <form action="" method="post">
+        <label for="nombre" style="color: white">NOMBRE:</label><br>
+        <input type="text" placeholder = "Escriba su nombre" name="nombre" > 
+
+    </form>
 </body>
 </html>
