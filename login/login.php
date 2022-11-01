@@ -39,14 +39,47 @@ if($_POST){
     <title>Login en PHP</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="../style.css">    
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="../css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="../css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/custom.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <style>
+    <!--<style>
       .container{margin-top:100px}
-    </style>
+    </style>-->
   </head>
   <body>
-    <h1 style="text-align:center;">Inicio de sesión</h1>
+  <header class="header header_style_01">
+        <nav class="navbar header-nav navbar-expand-lg">
+            <div class="container">
+				<a class="navbar-brand" href=../index.php><img src="../images/logos/funda-mobile.svg" alt="" width="200px" height="100px"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarApp" aria-controls="navbarApp" aria-expanded="false" aria-label="Toggle navigation">
+					
+				</button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarApp">
+                    <ul class="navbar-nav">
+                        <!--<li><a class="nav-link active" href="#home">Home</a></li>
+                        <li><a class="nav-link" href="#team">Nosotros</a></li>
+                        <li><a class="nav-link" href="#screenshots">Portafolio</a></li>
+                        <li><a class="nav-link" href=""></a></li>
+                        <li><a class="nav-link" href="formulario.php"><img src="images/carritoxd.png" alt="image" width="30px" height="30px"/></a></li>-->
+                        <li><a class="nav-link active" href="../index.php"> <button class="btn btn-primary ">Salir</button>    </a></li>
+						<!--<li><a class="nav-link" href="#support">Support</a></li>-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="home" class="parallax first-section"  style="background-image:url('../uploads/bg-img.jpg');  ">
+            <div style="display:flex; justify-content: center;">
+                <h1 style="color: white;  font-size:80px; " >Inicio de seccion</h1>
+            </div>
     <div class="container">
       <form class="form-horizontal" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
         <div class="form-group">
@@ -67,11 +100,7 @@ if($_POST){
           </div>
         </div>
       </form>
-      <form action="../index.php" method="post">
-        <div class="col-sm-offset-2 col-sm-10">
-          <button type="submit" class="btn btn-default">Inicio</button>
-        </div>
-      </form>
+      <a href="registro.php"><h5>Cree su cuenta aqui</h5></a>
     </div>
   </body>
 </html>
