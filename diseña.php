@@ -53,13 +53,14 @@
 <div class="card">
     <img class="card-img-top" src="images/marca/apple-logo.png" style = "object-fit:scale-down; " alt="200" width="200px" height = " 200px "> 
     <div class="card-body">
-    <form name="Apple" method="post" action="">
-    <select name="destino" onchange="location.href=apple.destino.value;" class="btn-primary">
-        <option value="value1">.....</option>        
-        <option value="dispo/apple/iphone12.php">Iphone 12 PRO</option>
-        <option value="dispo/apple/iphone13.php">Iphone 13 PRO MAX</option>
-        <option value="dispo/apple/iphone14.php">Iphone 14 PRO MAX</option>
-    </select>
+        <form name="Apple" method="post" action="">
+            <select name="destino" onchange="location.href=Apple.destino.value;" class="btn-primary">
+                <option value="value1">.....</option>        
+                <option value="dispo/apple/iphone12.php">Iphone 12 PRO MAX</option>
+                <option value="dispo/apple/iphone13.php">Iphone 13 PRO MAX</option>
+                <option value="dispo/apple/iphone14.php">Iphone 14 PRO MAX</option>
+            </select>
+        <form/>
     </div>
 </div>
 </div>
