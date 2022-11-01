@@ -49,7 +49,8 @@
             </div>
 <div class="container">
     <div class="row">
-    <div class="col-md-3">
+
+<div class="col-md-3">
 <div class="card">
     <img class="card-img-top" src="images/marca/apple-logo.png" style = "object-fit:scale-down; " alt="200" width="200px" height = " 200px "> 
     <div class="card-body">
@@ -74,7 +75,7 @@
                 <option value="value1">.....</option> 
                 <option value="dispo/huawei/mate.php">Mate 20 lite</option>
                 <option value="dispo/huawei/y9.php">Y9 2019</option>
-                <option value="dispo/huawei/p30.php">P30</option>
+                <option value="dispo/huawei/p30.php">P30 Lite</option>
             </select>   
         </form>    
     </div>
@@ -90,7 +91,7 @@
                 <option value="value1">.....</option> 
                 <option value="dispo/samsung/a20s.php">A20s</option>
                 <option value="dispo/samsung/a10s.php">A10s</option>
-                <option value="dispo/samsung/s22.php">S22</option>
+                <option value="dispo/samsung/s22.php">S22 ULTRA</option>
             </select>
         </form>    
     </div>
@@ -105,7 +106,7 @@
         <form name="Xiaomi" method="post" action="">
             <select name="destino" onchange="location.href=Xiaomi.destino.value;" class="btn-primary">
                 <option value="value1">.....</option> 
-                <option value="dispo/xiaomi/redmi8.php">Redmi 8</option>
+                <option value="dispo/xiaomi/redmi8.php">Redmi Note 8</option>
                 <option value="dispo/xiaomi/redmi10.php">Redmi 10 PRO</option>
                 <option value="dispo/xiaomi/pocox3.php">POCO X3 PRO</option>
             </select>
