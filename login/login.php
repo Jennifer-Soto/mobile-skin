@@ -83,15 +83,15 @@ if($_POST){
     <div class="container">
       <form class="form-horizontal" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
         <div class="form-group">
-          <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+          <label for="inputEmail3" class="col-sm-2 control-label">Usuario</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" name="usuario" id="inputName" placeholder="Email" required>
+            <input type="text" class="form-control" name="usuario" id="inputName" placeholder="Usuario" required>
           </div>
         </div>
         <div class="form-group">
-          <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+          <label for="inputPassword3" class="col-sm-2 control-label">contraseña</label>
           <div class="col-sm-10">
-            <input type="password" class="form-control" name="password" id="inputPassword3" placeholder="Password" required>
+            <input type="password" class="form-control" name="password" id="inputPassword3" placeholder="contraseña" required>
           </div>
         </div>
         <div class="form-group">

@@ -1,3 +1,7 @@
+<?php
+    session_start();
+    $nombre = $_SESSION['nombre'];
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -64,7 +68,8 @@
             <div class="row" style = "align-items:center;  ">
                 <div class="col-md-6 col-sm-12">
                     <div class="big-tagline">
-                        <h2>¡Crea tu funda a tu gusto!</h2>
+                        <h2>¡Bienvenido <?php echo $nombre; ?> Crea tu funda a tu gusto!</h2>
+                        <h2></h2>
                         <a href="../diseña.php"><button class="btn btn-primary ">Empieza</button></a>
                     </div>
                 </div>
