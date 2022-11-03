@@ -38,5 +38,13 @@
                     </div>
             </div>
         </nav>
+    <div class="col-md-6">
+    <div class="card">
+            <img class="card-img-top" src="../../uploads/a10s.png" style = "object-fit:scale-down; " alt="300" width="300px" height = " 300px "> 
+            <button class="btn btn-primary ">Color</button>
+               <div class="card-body"> 
+            </div>
+    </div>  
+    </div>   
 </body>
 </html>

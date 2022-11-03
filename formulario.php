@@ -35,10 +35,6 @@
                             <li><a class="nav-link" href="#features">Nosotros</a></li>
                             <li><a class="nav-link" href="#screenshots">Portafolio</a></li>
                             <li><a class="nav-link" href=""></a></li>
-                            <!--<li><a class="nav-link" href="#pricing">Pricing</a></li>
-                            <li><a class="nav-link" href="#testimonials">Clients</a></li>
-                            <li><a class="nav-link" href="#purchase">Purchase</a></li>
-                            <li><a class="nav-link" href="#support">Support</a></li>-->
                         </ul>
                     </div>
                 </div>

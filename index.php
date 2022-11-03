@@ -40,18 +40,14 @@
         <nav class="navbar header-nav navbar-expand-lg">
             <div class="container">
 				<a class="navbar-brand" href=#home><img src="images/logos/funda-mobile.svg" alt="" width="200px" height="100px"></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarApp" aria-controls="navbarApp" aria-expanded="false" aria-label="Toggle navigation">
-					
-				</button>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarApp" aria-controls="navbarApp" aria-expanded="false" aria-label="Toggle navigation"></button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarApp">
                     <ul class="navbar-nav">
                         <li><a class="nav-link active" href="#home">Home</a></li>
                         <li><a class="nav-link" href="#team">Nosotros</a></li>
                         <li><a class="nav-link" href="#screenshots">Portafolio</a></li>
-                        <li><a class="nav-link" href=""></a></li>
                         <li><a class="nav-link" href="formulario.php"><img src="images/carritoxd.png" alt="image" width="30px" height="30px"/></a></li>
-                        <li><a class="nav-link active" href="login/login.php"> <button class="btn btn-primary ">Login</button>    </a></li>
-						<!--<li><a class="nav-link" href="#support">Support</a></li>-->
+                        <li><a class="nav-link active" href="login/login.php"> <button class="btn btn-primary ">Login</button></a></li>
                     </ul>
                 </div>
             </div>
