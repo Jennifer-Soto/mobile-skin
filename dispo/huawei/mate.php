@@ -38,5 +38,12 @@
                     </div>
             </div>
         </nav>
+        <div class="col-md-6">
+    <div class="card">
+            <img class="card-img-top" src="../../uploads/mate-20-lite" style = "object-fit:scale-down; " alt="700px" width="700px" height = " 700px "> 
+               <div class="card-body"> 
+            </div>
+    </div>  
+    </div>
 </body>
 </html>

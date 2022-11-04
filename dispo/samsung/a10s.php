@@ -40,8 +40,7 @@
         </nav>
     <div class="col-md-6">
     <div class="card">
-            <img class="card-img-top" src="../../uploads/a10s.png" style = "object-fit:scale-down; " alt="300" width="300px" height = " 300px "> 
-            <button class="btn btn-primary ">Color</button>
+            <img class="card-img-top" src="../../uploads/a10s.png" style = "object-fit:scale-down; " alt="700px" width="500px" height ="700px "> 
                <div class="card-body"> 
             </div>
     </div>  
