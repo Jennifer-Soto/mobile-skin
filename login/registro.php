@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="../css/custom.css">
 </head>
 <body>
-<header class="header header_style_01">
+<header class="header header_style_01" >
         <nav class="navbar header-nav navbar-expand-lg">
             <div class="container">
 				<a class="navbar-brand" href=../index.php><img src="../images/logos/funda-mobile.svg" alt="" width="200px" height="100px"></a>
@@ -60,22 +60,24 @@
     </header>
     <div id="home" class="parallax first-section"  style="background-image:url('../uploads/bg-img.jpg');  ">
         <!--<div style="display:flex; justify-content: center;">
-                <h1 style="color: white;  font-size:80px; " >Cree su cuenta:</h1>
+            <h1 style="color: white;  font-size:80px; " >Cree su cuenta:</h1>
         </div>-->
-    <div class=container>      
-    <form action="" method="post" class="form-style">
-        <label for="nombre" style="color: white" class="col-sm-2 control-label">Nombre: </label>
-        <input type="text" class="form-control" placeholder = "Escriba su nombre" name="nombre" ><br>
-        <label for="usuario" style="color: white" class="col-sm-2 control-label">Usuario: </label>
-        <input type="text" class="form-control" placeholder = "Escriba su usuario" name="usuario" ><br>
-        <label for="password" style="color: white" class="col-sm-2 control-label">Contraseña: </label>
-        <input type="password" class="form-control" placeholder = "Escriba su contraseña" name="password" ><br>
-        <label for="cpassword" style="color: white" class="col-sm-2 control-label">Conf. Contraseña: </label>
-        <input type="password" class="form-control" placeholder = "Confirme su contraseña" name="cpassword" ><br>
-        <div class="col-sm-offset-2 col-sm-2">
-            <button type="submit" class="btn btn-default">crear</button>
+        <div class=container>      
+            <div style="display:flex; justify-content: center;">
+                <h1 style="color: white;  font-size:80px; " >Registrate</h1>
+            </div>
+            <form action="" method="post" class="form-style">
+                <label for="nombre" style="color: white" class="col-sm-2 control-label">Nombre: </label>
+                <input type="text" class="form-control" placeholder = "Escriba su nombre" name="nombre" ><br>
+                <label for="usuario" style="color: white" class="col-sm-2 control-label">Usuario: </label>
+                <input type="text" class="form-control" placeholder = "Escriba su usuario" name="usuario" ><br>
+                <label for="password" style="color: white" class="col-sm-2 control-label">Contraseña: </label>
+                <input type="password" class="form-control" placeholder = "Escriba su contraseña" name="password" ><br>
+
+                <button type="submit" class="btn btn-default">crear</button>
+                
+            </form>
         </div>
-    </form>
-    </div>  
+  </div>  
 </body>
 </html>
