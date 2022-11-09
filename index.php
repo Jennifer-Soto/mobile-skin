@@ -88,35 +88,17 @@
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 left-row">
 					<ul class="features-left">
 						<li class="highlight lhgh" data-index="0">
-							<i class="flaticon-wordpress-logo effect-1" ></i>
 							<div class="fl-inner">
 								<h4> Fundas para Moviles </h4>
 							</div>
 						</li><!-- .highlight .left-row -->
 
 						<li class="highlight lhgh" data-index="1">
-							<i class="flaticon-windows effect-1"></i>
 							<div class="fl-inner">
 								<h4>Browser Compatible</h4>
-								<p>Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet.</p>
 							</div>
 						</li><!-- .highlight .left-row -->
 
-						<li class="highlight lhgh" data-index="2">
-							<i class="flaticon-price-tag effect-1"></i>							
-							<div class="fl-inner">
-								<h4>eCommerce Ready</h4>
-								<p>Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet.</p>
-							</div>
-						</li><!-- .highlight .left-row -->
-						
-						<li class="highlight lhgh" data-index="3">
-							<i class="flaticon-new-file effect-1"></i>						
-							<div class="fl-inner">
-								<h4>Easy to Customize</h4>
-								<p>Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet.</p>
-							</div>
-						</li><!-- .highlight .left-row -->
 					</ul>
 				</div><!-- .row .left-row -->
 			  
@@ -154,34 +136,15 @@
 				<!--The Second row-->
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 right-row">
 					<ul class="features-right">
-						<li class="highlight rhgh" data-index="4">
-							<i class="flaticon-pantone effect-1"></i>							 
+						<li class="highlight rhgh" data-index="4">							 
 							<div class="fr-inner">
 								<h4>Limitless Colors</h4>
-								<p>Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet.</p>
 							</div>
 						</li><!-- .highlight .left-row -->
 						<li class="highlight rhgh" data-index="5">
-							<i class="flaticon-cloud-computing effect-1"></i>
 							<div class="fr-inner">
 								<h4>Lifetime Update</h4>
-								<p>Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet.</p>
 							</div>
-						</li><!-- .highlight .left-row -->
-						<li class="highlight rhgh" data-index="6">
-							<i class="flaticon-line-graph effect-1"></i>
-							<div class="fr-inner">
-								<h4>SEO Friendly</h4>
-								<p>Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet. </p>
-							</div>
-						</li><!-- .highlight .left-row -->
-						<li class="highlight rhgh" data-index="7">
-							<i class="flaticon-coding effect-1"></i>
-							<div class="fr-inner">
-								<h4>Simple Clean Code</h4>
-								<p>Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet. </p>
-							</div>
-						</li><!-- .highlight .left-row -->
 					</ul>
 				</div><!-- .row .left-row -->
 			  
