@@ -91,7 +91,6 @@
 							<i class="flaticon-wordpress-logo effect-1" ></i>
 							<div class="fl-inner">
 								<h4> Fundas para Moviles </h4>
-								<p>Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet.</p>
 							</div>
 						</li><!-- .highlight .left-row -->
 
