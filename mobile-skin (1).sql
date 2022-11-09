@@ -139,10 +139,7 @@ ALTER TABLE `usuario`
 --
 -- AUTO_INCREMENT de la tabla `cliente`
 --
-ALTER TABLE `cliente`
-  MODIFY `id_cliente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
 
---
 -- AUTO_INCREMENT de la tabla `dispositivos`
 --
 ALTER TABLE `dispositivos`

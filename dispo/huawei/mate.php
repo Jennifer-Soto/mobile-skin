@@ -1,3 +1,9 @@
+<?php 
+
+    $texto = $_POST['texto'];
+    $color = $_POST['color'];
+ 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,5 +44,25 @@
                     </div>
             </div>
         </nav>
+     <div class="container col-lg-12" style=" display:flex; ">
+
+         <div class="col-md-5 col-lg-6">
+             <div>
+                 <form action="mate.php" method="post">
+                     <h1>COLOQUE UN TEXTO EN LA IMAGEN</h1>
+                
+                    <input type="color" name="color">
+                     <input name="texto" type="text" placeholder="texto ">
+                     <button>enviar</button>
+                 </form>
+                </div>  
+            </div>
+            <div class="col-md-5 col-lg-6">
+                <div class="card">
+                    <img class="card-img-top" src="../../uploads/mate-20-lite" style = "object-fit:scale-down; " alt="700px" width="700px" height = " 700px "> 
+                    <h1 style="position:absolute; top:450px; left: 300px; font-size:40px; "><?php echo  "<p style=' color: $color'> $texto</p>" ?></h1>
+                    </div>  
+            </div>   
+    </div>
 </body>
 </html>

@@ -83,13 +83,13 @@ if($_POST){
     <div class="container">
       <form class="form-horizontal" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
         <div class="form-group">
-          <label for="inputEmail3" class="col-sm-2 control-label">Usuario</label>
+          <label for="inputEmail3" class="col-sm-2 control-label" style="color:white">Usuario</label>
           <div class="col-sm-10">
             <input type="text" class="form-control" name="usuario" id="inputName" placeholder="Usuario" required>
           </div>
         </div>
         <div class="form-group">
-          <label for="inputPassword3" class="col-sm-2 control-label">contraseña</label>
+          <label for="inputPassword3" class="col-sm-2 control-label" style="color:white">contraseña</label>
           <div class="col-sm-10">
             <input type="password" class="form-control" name="password" id="inputPassword3" placeholder="contraseña" required>
           </div>
@@ -97,10 +97,11 @@ if($_POST){
         <div class="form-group">
           <div class="col-sm-offset-2 col-sm-10">
             <button type="submit" class="btn btn-default">Sign in</button>
+            <button> <a href="registro.php" style="font-size:18px; color:black; border:none; border-radious:10px;">Cree su cuenta aqui</a> </button>
           </div>
         </div>
       </form>
-      <a href="registro.php"><h5>Cree su cuenta aqui</h5></a>
+     
     </div>
   </body>
 </html>

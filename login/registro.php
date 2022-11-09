@@ -51,6 +51,7 @@ $contraseña="m";
             <div style="display:flex; justify-content: center;">
                 <h1 style="color: white;  font-size:80px; " >Registrate</h1>
             </div>
+
             <form action="registro.php" method="post" class="form-style">
                 <label for="nombre" style="color: white" class="col-sm-2 control-label">Nombre: </label>
                 <input type="text" class="form-control" placeholder = "Escriba su nombre" name="nombre" ><br>
@@ -61,6 +62,18 @@ $contraseña="m";
                 <div class="col-sm-offset-2 col-sm-2">
                     <button type="submit" class="btn btn-default">crear</button>
                 </div>     
+
+            <form action="" method="post" class="form-style">
+                <label for="nombre" style="color: white" class="col-sm-2 control-label">Nombre: </label>
+                <input type="text" class="form-control" placeholder = "Escriba su nombre" name="nombre" ><br>
+                <label for="usuario" style="color: white" class="col-sm-2 control-label">Usuario: </label>
+                <input type="text" class="form-control" placeholder = "Escriba su usuario" name="usuario" ><br>
+                <label for="password" style="color: white" class="col-sm-2 control-label">Contraseña: </label>
+                <input type="password" class="form-control" placeholder = "Escriba su contraseña" name="password" ><br>
+
+                <button type="submit" class="btn btn-default">crear</button>
+                
+
             </form>
         </div>
   </div>  
