@@ -81,7 +81,7 @@ $nombre = $_SESSION['nombre'];
                     </div>
                 </div>
             </li>
-
+           
             <!-- Nav Item - Utilities Collapse Menu -->
             <!-- <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
@@ -151,7 +151,9 @@ $nombre = $_SESSION['nombre'];
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
-
+            <li>
+                <img src="../../images/logos/.png" alt="" width="15px" height="15px">  
+            </li>
             <!-- Sidebar Message -->
             <!-- <div class="sidebar-card d-none d-lg-flex">
                 <img class="sidebar-card-illustration mb-2" src="img/undraw_rocket.svg" alt="...">
