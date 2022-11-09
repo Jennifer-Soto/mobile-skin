@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 01-11-2022 a las 23:59:34
+-- Tiempo de generación: 09-11-2022 a las 22:49:03
 -- Versión del servidor: 10.4.22-MariaDB
 -- Versión de PHP: 8.1.2
 
@@ -91,40 +91,23 @@ CREATE TABLE `pedido` (
 
 CREATE TABLE `usuario` (
   `user_id` int(11) NOT NULL,
-  `usuario` varchar(60) NOT NULL,
-  `correo` varchar(400) NOT NULL,
-  `contraseña` varchar(400) NOT NULL
+  `usuarios` varchar(60) NOT NULL,
+  `tipo_usuario` int(11) NOT NULL,
+  `contraseña` varchar(20) NOT NULL,
+  `nombre` varchar(80) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `usuario`
+--
+
+INSERT INTO `usuario` (`user_id`, `usuarios`, `tipo_usuario`, `contraseña`, `nombre`) VALUES
+(7, 'admin', 1, '7110eda4d09e062aa5e4', 'Administrador web'),
+(8, 'usuario', 2, 'usuarios', 'usuario estandar');
 
 --
 -- Índices para tablas volcadas
 --
-
---
--- Indices de la tabla `cliente`
---
-ALTER TABLE `cliente`
-  ADD PRIMARY KEY (`id_cliente`);
-
---
--- Indices de la tabla `dispositivos`
---
-ALTER TABLE `dispositivos`
-  ADD PRIMARY KEY (`id_dispositivo`),
-  ADD KEY `id_dispositivo` (`id_dispositivo`);
-
---
--- Indices de la tabla `funda_celular`
---
-ALTER TABLE `funda_celular`
-  ADD PRIMARY KEY (`id_funda`),
-  ADD KEY `id_funda` (`id_funda`);
-
---
--- Indices de la tabla `pedido`
---
-ALTER TABLE `pedido`
-  ADD PRIMARY KEY (`id_pedido`);
 
 --
 -- Indices de la tabla `usuario`
@@ -137,13 +120,10 @@ ALTER TABLE `usuario`
 --
 
 --
--- AUTO_INCREMENT de la tabla `cliente`
+-- AUTO_INCREMENT de la tabla `usuario`
 --
-
--- AUTO_INCREMENT de la tabla `dispositivos`
---
-ALTER TABLE `dispositivos`
-  MODIFY `id_dispositivo` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `usuario`
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
