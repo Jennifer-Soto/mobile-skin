@@ -49,11 +49,11 @@
          <div class="col-md-5 col-lg-6">
              <div>
                  <form action="mate.php" method="post">
-                     <h1>COLOQUE UN TEXTO EN LA IMAGEN</h1>
+                     <h3>AGREGAR UN TEXTO</h3>
                 
                     <input type="color" name="color">
                      <input name="texto" type="text" placeholder="texto ">
-                     <button>enviar</button>
+                     <button>Enviar</button>
                  </form>
                 </div>  
             </div>

@@ -46,10 +46,9 @@
                         <li><a class="nav-link active" href="#home">Home</a></li>
                         <li><a class="nav-link" href="#team">Nosotros</a></li>
                         <li><a class="nav-link" href="#screenshots">Portafolio</a></li>
-                        <li><a class="nav-link" href=""></a></li>
+                        <li><a class="nav-link" href="#features">Móviles</a></li>
                         <li><a class="nav-link" href="login/login.php"><img src="images/carritoxd.png" alt="image" width="30px" height="30px"/></a></li>
-                        <li><a class="nav-link active" href="login/login.php"> <button class="btn btn-primary ">Login</button></a></li>
-						<!--<li><a class="nav-link" href="#support">Support</a></li>-->
+                        <li><a class="nav-link active" href="login/login.php"> <button class="btn btn-primary" style=background-color:purple;>Login</button></a></li>
                     </ul>
                 </div>
             </div>
@@ -79,7 +78,7 @@
     <div id="features" class="section wb">
         <div class="container">
             <div class="section-title text-center">
-                <h3 style = "text-transform: uppercase; color: #AD1457;"> Móviles Disponibles </h3>
+                <h3 style = "text-transform: uppercase; color: #AD1457;"> Móviles </h3>
             </div><!-- end title -->
 
             <div id="default" class="row clearfix zenith_slider">
@@ -88,16 +87,18 @@
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 left-row">
 					<ul class="features-left"><br><br><br><br><br>
 						<li class="highlight lhgh" data-index="0">
-                            <i class=""></i>
+                            <i class="" ><img src="images/marca/apple-logo.png" alt="" width="50px" height="50px"></i>
 							<div class="fl-inner">
 								<h4> Apple </h4>
+                                <p>Fundas desde $15.000</p>
 							</div>
 						</li><!-- .highlight .left-row -->
 
 						<li class="highlight lhgh" data-index="1">
-                            <i class=""></i>
+                            <i class=""><img src="images/marca/huawei.jpg" alt="" width="50px" height="50px"></i>
 							<div class="fl-inner">
 								<h4> Huawei </h4>
+                                <p>Fundas desde $15.000</p>
 							</div>
 						</li><!-- .highlight .left-row -->
 
@@ -127,15 +128,17 @@
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 right-row">
 					<ul class="features-right"><br><br><br><br><br>
 						<li class="highlight rhgh" data-index="2">		
-                            <i class=""></i>					 
+                            <i class=""><img src="images/marca/samsung.jpg" alt="" width="70px" height="40px"></i>					 
 							<div class="fr-inner">
 								<h4> Samsung </h4>
+                                <p>Fundas desde $15.000</p>
 							</div>
 						</li><!-- .highlight .left-row -->
 						<li class="highlight rhgh" data-index="3">
-                            <i class=""></i>
+                            <i class=""><img src="images/marca/xiaomi.png" alt="" width="50px" height="50px"></i>
 							<div class="fr-inner">
 								<h4> Xiaomi </h4>
+                                <p>Fundas desde $15.000</p>
 							</div>
 					</ul>
 				</div><!-- .row .left-row -->
