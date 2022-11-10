@@ -79,23 +79,25 @@
     <div id="features" class="section wb">
         <div class="container">
             <div class="section-title text-center">
-                <h3 style = "text-transform: uppercase; color: #AD1457;"> Escoge tu diseño </h3>
+                <h3 style = "text-transform: uppercase; color: #AD1457;"> Móviles Disponibles </h3>
             </div><!-- end title -->
 
             <div id="default" class="row clearfix zenith_slider">
                   
 				<!--The First row-->  
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 left-row">
-					<ul class="features-left">
+					<ul class="features-left"><br><br><br><br><br>
 						<li class="highlight lhgh" data-index="0">
+                            <i class=""></i>
 							<div class="fl-inner">
-								<h4> Fundas para Moviles </h4>
+								<h4> Apple </h4>
 							</div>
 						</li><!-- .highlight .left-row -->
 
 						<li class="highlight lhgh" data-index="1">
+                            <i class=""></i>
 							<div class="fl-inner">
-								<h4>Browser Compatible</h4>
+								<h4> Huawei </h4>
 							</div>
 						</li><!-- .highlight .left-row -->
 
@@ -107,43 +109,33 @@
 					<div class="phone-holder">
 					   <div id="fon"></div>
 					   <div class="hgh-linner hgi" data-index="0">
-							<img width="190" height="320" src="uploads/carousel_01.jpg" class="attachment-highlight wp-post-image" alt="screen" />    
+							<img width="100" height="200" src="images/marca/apple-logo.png" class="attachment-highlight wp-post-image" alt="Apple" />    
 						</div>
 						<div class="hgh-linner hgi" data-index="1">
-							<img width="234" height="398" src="uploads/carousel_02.jpg" class="attachment-highlight wp-post-image" alt="screensdst" />    
+							<img width="100" height="200" src="images/marca/HUAWEI-LOGO.webp" class="attachment-highlight wp-post-image" alt="Huawei" />    
 						</div>
 						<div class="hgh-linner hgi" data-index="2">
-							<img width="234" height="398" src="uploads/carousel_03.jpg" class="attachment-highlight wp-post-image" alt="screen_09" />    
+							<img width="100" height="200" src="images/marca/Samsung-Logo.webp" class="attachment-highlight wp-post-image" alt="Samsung" />    
 						</div>
 						<div class="hgh-rinner hgi" data-index="3">
-							<img width="234" height="398" src="uploads/carousel_04.jpg" class="attachment-highlight wp-post-image" alt="screen_07" />    
-						</div>
-						<div class="hgh-rinner hgi" data-index="4">
-							<img width="234" height="398" src="uploads/carousel_01.jpg" class="attachment-highlight wp-post-image" alt="screen_08" />    
-						</div>
-						<div class="hgh-rinner hgi" data-index="5">
-							<img width="234" height="398" src="uploads/carousel_01.jpg" class="attachment-highlight wp-post-image" alt="screen_06" />    
-						</div>
-						<div class="hgh-rinner hgi" data-index="6">
-							<img width="234" height="398" src="uploads/carousel_02.jpg" class="attachment-highlight wp-post-image" alt="screen_06" />    
-						</div>
-						<div class="hgh-rinner hgi" data-index="7">
-							<img width="234" height="398" src="uploads/carousel_03.jpg" class="attachment-highlight wp-post-image" alt="screen_06" />    
+							<img width="100" height="200" src="images/marca/Xiaomi_logo.png" class="attachment-highlight wp-post-image" alt="Xiaomi" />    
 						</div>
 					</div>
 				</div>
 
 				<!--The Second row-->
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 right-row">
-					<ul class="features-right">
-						<li class="highlight rhgh" data-index="4">							 
+					<ul class="features-right"><br><br><br><br><br>
+						<li class="highlight rhgh" data-index="2">		
+                            <i class=""></i>					 
 							<div class="fr-inner">
-								<h4>Limitless Colors</h4>
+								<h4> Samsung </h4>
 							</div>
 						</li><!-- .highlight .left-row -->
-						<li class="highlight rhgh" data-index="5">
+						<li class="highlight rhgh" data-index="3">
+                            <i class=""></i>
 							<div class="fr-inner">
-								<h4>Lifetime Update</h4>
+								<h4> Xiaomi </h4>
 							</div>
 					</ul>
 				</div><!-- .row .left-row -->
