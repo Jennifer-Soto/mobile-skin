@@ -62,6 +62,7 @@ $contraseña="m";
                 <div class="col-sm-offset-2 col-sm-2">
                     <button type="submit" class="btn btn-default">crear</button>
                 </div>     
+            </form>    
         </div>
   </div>  
 </body>
