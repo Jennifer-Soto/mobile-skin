@@ -37,7 +37,6 @@ $contraseña="m";
                         <li><a class="nav-link" href="formulario.php"><img src="images/carritoxd.png" alt="image" width="30px" height="30px"/></a></li>-->
                         <li><a class="nav-link active" href="../index.php"> <button class="btn btn-primary ">Salir</button>    </a></li>
                         <li><a class="nav-link active" href="login.php"> <button class="btn btn-primary ">Iniciar</button>    </a></li>
-						<!--<li><a class="nav-link" href="#support">Support</a></li>-->
                     </ul>
                 </div>
             </div>

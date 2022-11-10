@@ -46,10 +46,9 @@
                         <li><a class="nav-link active" href="#home">Home</a></li>
                         <li><a class="nav-link" href="#team">Nosotros</a></li>
                         <li><a class="nav-link" href="#screenshots">Portafolio</a></li>
-                        <li><a class="nav-link" href=""></a></li>
+                        <li><a class="nav-link" href="#features">Móviles</a></li>
                         <li><a class="nav-link" href="login/login.php"><img src="images/carritoxd.png" alt="image" width="30px" height="30px"/></a></li>
-                        <li><a class="nav-link active" href="login/login.php"> <button class="btn btn-primary ">Login</button></a></li>
-						<!--<li><a class="nav-link" href="#support">Support</a></li>-->
+                        <li><a class="nav-link active" href="login/login.php"> <button class="btn btn-primary" style=background-color:purple;>Login</button></a></li>
                     </ul>
                 </div>
             </div>
@@ -79,44 +78,30 @@
     <div id="features" class="section wb">
         <div class="container">
             <div class="section-title text-center">
-                <h3 style = "text-transform: uppercase; color: #AD1457;"> Escoge tu diseño </h3>
+                <h3 style = "text-transform: uppercase; color: #AD1457;"> Móviles </h3>
             </div><!-- end title -->
 
             <div id="default" class="row clearfix zenith_slider">
                   
 				<!--The First row-->  
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 left-row">
-					<ul class="features-left">
+					<ul class="features-left"><br><br><br><br><br>
 						<li class="highlight lhgh" data-index="0">
-							<i class="flaticon-wordpress-logo effect-1" ></i>
+                            <i class="" ><img src="images/marca/apple-logo.png" alt="" width="50px" height="50px"></i>
 							<div class="fl-inner">
-								<h4> Fundas para Moviles </h4>
+								<h4> Apple </h4>
+                                <p>Fundas desde $15.000</p>
 							</div>
 						</li><!-- .highlight .left-row -->
 
 						<li class="highlight lhgh" data-index="1">
-							<i class="flaticon-windows effect-1"></i>
+                            <i class=""><img src="images/marca/huawei.jpg" alt="" width="50px" height="50px"></i>
 							<div class="fl-inner">
-								<h4>Browser Compatible</h4>
-								<p>Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet.</p>
+								<h4> Huawei </h4>
+                                <p>Fundas desde $15.000</p>
 							</div>
 						</li><!-- .highlight .left-row -->
 
-						<li class="highlight lhgh" data-index="2">
-							<i class="flaticon-price-tag effect-1"></i>							
-							<div class="fl-inner">
-								<h4>eCommerce Ready</h4>
-								<p>Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet.</p>
-							</div>
-						</li><!-- .highlight .left-row -->
-						
-						<li class="highlight lhgh" data-index="3">
-							<i class="flaticon-new-file effect-1"></i>						
-							<div class="fl-inner">
-								<h4>Easy to Customize</h4>
-								<p>Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet.</p>
-							</div>
-						</li><!-- .highlight .left-row -->
 					</ul>
 				</div><!-- .row .left-row -->
 			  
@@ -125,63 +110,36 @@
 					<div class="phone-holder">
 					   <div id="fon"></div>
 					   <div class="hgh-linner hgi" data-index="0">
-							<img width="190" height="320" src="uploads/carousel_01.jpg" class="attachment-highlight wp-post-image" alt="screen" />    
+							<img width="100" height="200" src="images/marca/apple-logo.png" class="attachment-highlight wp-post-image" alt="Apple" />    
 						</div>
 						<div class="hgh-linner hgi" data-index="1">
-							<img width="234" height="398" src="uploads/carousel_02.jpg" class="attachment-highlight wp-post-image" alt="screensdst" />    
+							<img width="100" height="200" src="images/marca/HUAWEI-LOGO.webp" class="attachment-highlight wp-post-image" alt="Huawei" />    
 						</div>
 						<div class="hgh-linner hgi" data-index="2">
-							<img width="234" height="398" src="uploads/carousel_03.jpg" class="attachment-highlight wp-post-image" alt="screen_09" />    
+							<img width="100" height="200" src="images/marca/Samsung-Logo.webp" class="attachment-highlight wp-post-image" alt="Samsung" />    
 						</div>
 						<div class="hgh-rinner hgi" data-index="3">
-							<img width="234" height="398" src="uploads/carousel_04.jpg" class="attachment-highlight wp-post-image" alt="screen_07" />    
-						</div>
-						<div class="hgh-rinner hgi" data-index="4">
-							<img width="234" height="398" src="uploads/carousel_01.jpg" class="attachment-highlight wp-post-image" alt="screen_08" />    
-						</div>
-						<div class="hgh-rinner hgi" data-index="5">
-							<img width="234" height="398" src="uploads/carousel_01.jpg" class="attachment-highlight wp-post-image" alt="screen_06" />    
-						</div>
-						<div class="hgh-rinner hgi" data-index="6">
-							<img width="234" height="398" src="uploads/carousel_02.jpg" class="attachment-highlight wp-post-image" alt="screen_06" />    
-						</div>
-						<div class="hgh-rinner hgi" data-index="7">
-							<img width="234" height="398" src="uploads/carousel_03.jpg" class="attachment-highlight wp-post-image" alt="screen_06" />    
+							<img width="100" height="200" src="images/marca/Xiaomi_logo.png" class="attachment-highlight wp-post-image" alt="Xiaomi" />    
 						</div>
 					</div>
 				</div>
 
 				<!--The Second row-->
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 right-row">
-					<ul class="features-right">
-						<li class="highlight rhgh" data-index="4">
-							<i class="flaticon-pantone effect-1"></i>							 
+					<ul class="features-right"><br><br><br><br><br>
+						<li class="highlight rhgh" data-index="2">		
+                            <i class=""><img src="images/marca/samsung.jpg" alt="" width="70px" height="40px"></i>					 
 							<div class="fr-inner">
-								<h4>Limitless Colors</h4>
-								<p>Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet.</p>
+								<h4> Samsung </h4>
+                                <p>Fundas desde $15.000</p>
 							</div>
 						</li><!-- .highlight .left-row -->
-						<li class="highlight rhgh" data-index="5">
-							<i class="flaticon-cloud-computing effect-1"></i>
+						<li class="highlight rhgh" data-index="3">
+                            <i class=""><img src="images/marca/xiaomi.png" alt="" width="50px" height="50px"></i>
 							<div class="fr-inner">
-								<h4>Lifetime Update</h4>
-								<p>Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet.</p>
+								<h4> Xiaomi </h4>
+                                <p>Fundas desde $15.000</p>
 							</div>
-						</li><!-- .highlight .left-row -->
-						<li class="highlight rhgh" data-index="6">
-							<i class="flaticon-line-graph effect-1"></i>
-							<div class="fr-inner">
-								<h4>SEO Friendly</h4>
-								<p>Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet. </p>
-							</div>
-						</li><!-- .highlight .left-row -->
-						<li class="highlight rhgh" data-index="7">
-							<i class="flaticon-coding effect-1"></i>
-							<div class="fr-inner">
-								<h4>Simple Clean Code</h4>
-								<p>Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet. </p>
-							</div>
-						</li><!-- .highlight .left-row -->
 					</ul>
 				</div><!-- .row .left-row -->
 			  
