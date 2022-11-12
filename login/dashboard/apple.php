@@ -4,6 +4,7 @@ if(!isset($_SESSION['user_id'])){
     header("LOCATION: ../index.php");
 }
 $nombre = $_SESSION['nombre'];
+include"../conexion.php";
 
 ?>
 <!DOCTYPE html>
@@ -28,6 +29,10 @@ $nombre = $_SESSION['nombre'];
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>.form-style{ display: flex; align-items: center; flex-direction: column;} </style>
+    
+    
+    
 
 </head>
 
@@ -163,14 +168,46 @@ $nombre = $_SESSION['nombre'];
             </div>
  -->
         </ul>
-        <form action="registro.php" method="post" class="form-style">
-                <label for="nombre" style="color: white" class="col-sm-2 control-label">Nombre: </label>
-                <input type="text" class="form-control" placeholder = "Escriba su nombre" name="nombre" ><br>
-                <label for="usuario" style="color: white" class="col-sm-2 control-label">Usuario: </label>
-                <input type="text" class="form-control" placeholder = "Escriba su usuario" name="usuarios" ><br>
-                <label for="password" style="color: white" class="col-sm-2 control-label">Contraseña: </label>
-                <input type="password" class="form-control" placeholder = "Escriba su contraseña" name="password" ><br>
-                <div class="col-sm-offset-2 col-sm-2">
+    
+        <form action="" method="post" class="form-style">             
+                <label for="usuario" style="color: white" class="col-sm-5 control-label">Usuario: </label>
+                <input type="text" class="form-control" placeholder = "ingrese el color" name="color" ><br>
+                <select name="modelo">
+                    <option value="value1">Seleccione el modelo</option>        
+                    <option value="Iphone 12 PRO MAX">Iphone 12 PRO MAX</option>
+                    <option value="Iphone 13 PRO MAX">Iphone 13 PRO MAX</option>
+                    <option value="Iphone 14 PRO MAX">Iphone 14 PRO MAX</option>
+                </select>
+                <label for="password" style="color: white" class="col-sm-1 control-label">Contraseña: </label>
+                <input type="text" class="form-control" placeholder = "ingrese la url" name="img" ><br>
+                <div class="col-sm-offset-1 col-sm-1">
                     <button type="submit" class="btn btn-primary">crear</button>
                 </div>     
             </form> 
+            <?php include"coloresiphone.php";?>
+        </div>
+        
+</body>
+<?php
+/*Aqui traemos los datos pedidos en el formulario html*/
+$img="m";
+$color = $_POST['color'];
+$modelo = $_POST['modelo'];
+$img = $_POST['img'];
+
+/*Insertamos los datos de las variables en el servidor*/
+if($img === "m"){
+
+}else{
+$insertar= "INSERT INTO funda_celular(color, img, modelo) values ('$color', '$img', '$modelo')";
+}
+if ($mysqli->query($insertar) === true){
+echo "Excelente";
+}
+else {
+echo "Pésimo trabajo";
+}
+echo "<br>"; 
+
+?>
+    
