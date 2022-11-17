@@ -199,7 +199,7 @@ $img = $_POST['img'];
 if($img === "m"){
 
 }else{
-$insertar= "INSERT INTO funda_celular(color, img, modelo) values ('$color', '$img', '$modelo')";
+$insertar= "INSERT INTO funda_celular(colores, imagen, modelo) values ('$color', '$img', '$modelo')";
 }
 if ($mysqli->query($insertar) === true){
 echo "Excelente";

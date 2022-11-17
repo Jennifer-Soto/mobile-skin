@@ -48,11 +48,16 @@
 
          <div class="col-md-5 col-lg-6">
              <div>
+                <h3>Escoge un color para tu funda</h3>
+                <button></button>
+                <button></button><br>
+                <button></button>
+                <button></button>
                  <form action="mate.php" method="post">
                      <h3>AGREGAR UN TEXTO</h3>
                 
-                    <input type="color" name="color">
                      <input name="texto" type="text" placeholder="texto ">
+                     <input type="color" name="color"> 
                      <button>Enviar</button>
                  </form>
                 </div>  

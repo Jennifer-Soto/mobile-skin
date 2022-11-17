@@ -38,12 +38,30 @@
                     </div>
             </div>
         </nav>
-    <div class="col-md-6">
-    <div class="card">
-            <img class="card-img-top" src="../../uploads/a20s.webp" style = "object-fit:scale-down; " alt="700px" width="700px" height = " 700px "> 
-               <div class="card-body"> 
-            </div>
-    </div>  
-    </div>
+        <div class="container col-lg-12" style=" display:flex; ">
+
+<div class="col-md-5 col-lg-6">
+    <div>
+    <h3>Escoge un color para tu funda</h3>
+                <button></button>
+                <button></button><br>
+                <button></button>
+                <button></button>
+        <form action="mate.php" method="post">
+            <h3>AGREGAR UN TEXTO</h3>
+       
+            <input name="texto" type="text" placeholder="texto ">
+            <input type="color" name="color"> 
+            <button>Enviar</button>
+        </form>
+       </div>  
+   </div>
+   <div class="col-md-5 col-lg-6">
+       <div class="card">
+           <img class="card-img-top" src="../../uploads/a20s.webp" style = "object-fit:scale-down; " alt="700px" width="700px" height = " 700px "> 
+           <h1 style="position:absolute; top:450px; left: 300px; font-size:40px; "><?php echo  "<p style=' color: $color'> $texto</p>" ?></h1>
+           </div>  
+   </div>   
+</div>
 </body>
 </html>

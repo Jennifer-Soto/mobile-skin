@@ -38,12 +38,35 @@
                     </div>
             </div>
         </nav>
-        <div class="col-md-6">
-    <div class="card">
-            <img class="card-img-top" src="../../uploads/iphone-12-pro-max.avif" style = "object-fit:scale-down; " alt="700px" width="700px" height = " 700px "> 
-               <div class="card-body"> 
-            </div>
-    </div>  
-    </div>
+        <div class="container col-lg-12" style=" display:flex; ">
+
+<div class="col-md-5 col-lg-6">
+    <div>
+
+    <br><h3>ESCOGE EL COLOR DE TU FUNDA </h3>
+
+                <button class="btn btn-primary " style="height: 30px; background-color:#0000FF;"></button>
+                <button class="btn btn-primary " style="height: 30px; background-color:#FF8000;"></button><br>
+                <button class="btn btn-primary " style="height: 30px; background-color:#FF0000;"></button>
+                <button class="btn btn-primary " style="height: 30px; background-color:#008000;"></button>
+        <form action="mate.php" method="post">
+
+            <br><h3>AGREGAR UN TEXTO</h3>
+       
+            <input name="texto" type="text" placeholder="texto ">
+            <input type="color" name="color"> 
+            <button>Enviar</button>
+        </form>
+        <br><h3>HAZ TU COMPRA AQUI</h3>
+        <a class="nav-link" href="login/login.php"><img src="../../images/carritoxd.png" alt="image" width="30px" height="30px"/></a>
+       </div>  
+   </div>
+   <div class="col-md-5 col-lg-6">
+       <div class="card">
+           <img class="card-img-top" src="../../uploads/iphone-12-pro-max.avif" style = "object-fit:scale-down; " alt="700px" width="700px" height = " 700px "> 
+           <h1 style="position:absolute; top:450px; left: 300px; font-size:40px; "><?php echo  "<p style=' color: $color'> $texto</p>" ?></h1>
+           </div>  
+   </div>   
+</div>
 </body>
 </html>

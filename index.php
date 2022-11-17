@@ -62,7 +62,7 @@
                 <div class="col-md-6 col-sm-12">
                     <div class="big-tagline">
                         <h2>¡Crea tu funda a tu gusto!</h2>
-                        <a href="login/login.php"><button class="btn btn-primary " style="width: 500px; background-color:purple;">Empieza</button></a>
+                        <a href="diseña.php"><button class="btn btn-primary " style="width: 500px; background-color:purple;">Empieza</button></a>
                     </div>
                 </div>
                 <div data-wow-duration="1s" data-wow-delay="0.2s" class=" wow slideInUp hidden-xs hidden-sm">

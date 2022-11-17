@@ -3,8 +3,8 @@ require"conexion.php";
 session_start();
 if($_POST){
     $usuario=$_POST['usuario'];
-    $contraseña=$_POST['password'];
-    $sql = "SELECT user_id, contraseña, usuarios, nombre, tipo_usuario FROM usuario WHERE usuarios='$usuario'";
+    $contrasena=$_POST['password'];
+    $sql = "SELECT user_id, contrasena, usuarios, nombre, tipo_usuario FROM usuario WHERE usuarios='$usuario'";
 
     $resultado = $mysqli->query($sql);
     //echo $sql;
@@ -12,10 +12,10 @@ if($_POST){
 
     if($num>0){
         $row = $resultado ->fetch_assoc();
-        $contraseña_bd = $row['contraseña'];
-        $pass_c= $contraseña;
+        $contrasena_bd = $row['contrasena'];
+        $pass_c= $contrasena;
 
-        if($contraseña_bd == $pass_c){
+        if($contrasena_bd == $pass_c){
             $_SESSION['user_id']=$row['user_id'];
             $_SESSION['nombre']=$row['nombre'];
             $_SESSION['tipo_usuario']=$row['tipo_usuario'];
@@ -78,7 +78,7 @@ if($_POST){
     </header>
     <div id="home" class="parallax first-section"  style="background-image:url('../uploads/bg-img.jpg');  ">
             <div style="display:flex; justify-content: center;">
-                <h1 style="color: white;  font-size:80px; " >Inicio de session</h1>
+                <h1 style="color: white;  font-size:80px; " >Inicio de Sesión</h1>
             </div>
     <div class="container">
       <form class="form-horizontal" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">

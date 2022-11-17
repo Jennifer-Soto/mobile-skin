@@ -79,7 +79,7 @@ $contraseña="m";
     if($contraseña == "m"){
 
     }else{
-    $insertar= "INSERT INTO usuario(nombre, usuarios, contraseña, tipo_usuario) values ('$nombre', '$usuarios', '$contraseña', '2')";
+    $insertar= "INSERT INTO usuario(nombre, usuarios, contrasena, tipo_usuario) values ('$nombre', '$usuarios', '$contraseña', '2')";
     }
    if ($mysqli->query($insertar) === true){
         echo "Excelente";
