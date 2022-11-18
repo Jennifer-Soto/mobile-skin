@@ -47,8 +47,9 @@
         
                 <button class="btn btn-primary " style="height: 30px; background-color:#FFFF00;"></button>
                 <button class="btn btn-primary " style="height: 30px; background-color:#F7BFBE;"></button><br>
-                <button class="btn btn-primary " style="height: 30px; background-color:#FF0000;"></button>
-                <button class="btn btn-primary " style="height: 30px; background-color:#008000;"></button>
+                <button class="btn btn-primary " style="height: 30px; background-color:#808080;"></button>
+                <button class="btn btn-primary " style="height: 30px; background-color:#800080;"></button>
+        
         <form action="mate.php" method="post">
 
             <br><h3>AGREGAR UN TEXTO</h3>

@@ -42,11 +42,12 @@
 
 <div class="col-md-5 col-lg-6">
     <div>
-    <h3>Escoge un color para tu funda</h3>
-                <button></button>
-                <button></button><br>
-                <button></button>
-                <button></button>
+    <br><h3>ESCOGE EL COLOR DE TU FUNDA </h3>
+        
+                <button class="btn btn-primary " style="height: 30px; background-color:#000000;"></button>
+                <button class="btn btn-primary " style="height: 30px; background-color:#FF0000;"></button><br>
+                <button class="btn btn-primary " style="height: 30px; background-color:#FDFD96;"></button>
+                <button class="btn btn-primary " style="height: 30px; background-color:#F7BFBE;"></button>
         <form action="mate.php" method="post">
             <h3>AGREGAR UN TEXTO</h3>
        

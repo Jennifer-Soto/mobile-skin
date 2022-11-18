@@ -42,18 +42,21 @@
 
 <div class="col-md-5 col-lg-6">
     <div>
-    <h3>Escoge un color para tu funda</h3>
-                <button></button>
-                <button></button><br>
-                <button></button>
-                <button></button>
+    <br><h3>ESCOGE EL COLOR DE TU FUNDA </h3>
+        
+                <button class="btn btn-primary " style="height: 30px; background-color:#FF00FF;"></button>
+                <button class="btn btn-primary " style="height: 30px; background-color:#F7BFBE;"></button><br>
+                <button class="btn btn-primary " style="height: 30px; background-color:#000000;"></button>
+                <button class="btn btn-primary " style="height: 30px; background-color:#ADD8E6;"></button>
         <form action="mate.php" method="post">
-            <h3>AGREGAR UN TEXTO</h3>
+            <br><h3>AGREGAR UN TEXTO</h3>
        
             <input name="texto" type="text" placeholder="texto ">
             <input type="color" name="color"> 
             <button>Enviar</button>
         </form>
+        <br><h3>HAZ TU COMPRA AQUI</h3>
+        <a class="nav-link" href="login/login.php"><img src="../../images/carritoxd.png" alt="image" width="30px" height="30px"/></a>
        </div>  
    </div>
    <div class="col-md-5 col-lg-6">
