@@ -173,7 +173,7 @@ include"../conexion.php";
                 <label for="usuario" style="color: white" class="col-sm-5 control-label">Usuario: </label>
                 <input type="text" class="form-control" placeholder = "ingrese el color" name="color" ><br>
                 <select name="modelo">
-                    <option value="value1">Seleccione el modelo</option>        
+                    <option value="value 1">Seleccione el modelo</option>        
                     <option value="Iphone 12 PRO MAX">Iphone 12 PRO MAX</option>
                     <option value="Iphone 13 PRO MAX">Iphone 13 PRO MAX</option>
                     <option value="Iphone 14 PRO MAX">Iphone 14 PRO MAX</option>
@@ -183,23 +183,25 @@ include"../conexion.php";
                 <div class="col-sm-offset-1 col-sm-1">
                     <button type="submit" class="btn btn-primary">crear</button>
                 </div>     
-            </form> 
-            <?php include"coloresiphone.php";?>
+            </form>
+            <div class="col-md-6">
+                <?php include"coloresiphone.php";?>
+            </div> 
+            
         </div>
         
 </body>
 <?php
 /*Aqui traemos los datos pedidos en el formulario html*/
-$img="m";
 $color = $_POST['color'];
 $modelo = $_POST['modelo'];
 $img = $_POST['img'];
 
 /*Insertamos los datos de las variables en el servidor*/
-if($img === "m"){
+if($modelo == "value 1"){
 
-}else{
-$insertar= "INSERT INTO funda_celular(colores, imagen, modelo) values ('$color', '$img', '$modelo')";
+}else if($modelo == "Iphone 12 PRO MAX" || $modelo == "Iphone 13 PRO MAX" || $modelo == "Iphone 14 PRO MAX"){
+$insertar= "INSERT INTO funda_celular(color, img, modelo) values ('$color', '$img', '$modelo')";
 }
 if ($mysqli->query($insertar) === true){
 echo "Excelente";
