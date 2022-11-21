@@ -174,9 +174,9 @@ include"../conexion.php";
                 <input type="text" class="form-control" placeholder = "ingrese el color" name="color" ><br>
                 <select name="modelo">
                     <option value="value 1">Seleccione el modelo</option>        
-                    <option value="Iphone 12 PRO MAX">Iphone 12 PRO MAX</option>
-                    <option value="Iphone 13 PRO MAX">Iphone 13 PRO MAX</option>
-                    <option value="Iphone 14 PRO MAX">Iphone 14 PRO MAX</option>
+                    <option value="Samsung A20s">Samsung A20s</option>
+                    <option value="Samsung A10s">Samsung A10s</option>
+                    <option value="Samsung S22 Ultra ">Samsung S22 Ultra </option>
                 </select>
                 <label for="password" style="color: white" class="col-sm-1 control-label">Contraseña: </label>
                 <input type="text" class="form-control" placeholder = "ingrese la url" name="img" ><br>
@@ -211,4 +211,3 @@ if(isset($_POST['guardar'])){
 
 
 ?>
-    

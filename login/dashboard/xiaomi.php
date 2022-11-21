@@ -174,9 +174,9 @@ include"../conexion.php";
                 <input type="text" class="form-control" placeholder = "ingrese el color" name="color" ><br>
                 <select name="modelo">
                     <option value="value 1">Seleccione el modelo</option>        
-                    <option value="Iphone 12 PRO MAX">Iphone 12 PRO MAX</option>
-                    <option value="Iphone 13 PRO MAX">Iphone 13 PRO MAX</option>
-                    <option value="Iphone 14 PRO MAX">Iphone 14 PRO MAX</option>
+                    <option value="Xiaomi Redmi note 8">Xiaomi Redmi note 8</option>
+                    <option value="Xiaomi Redmi 10 pro">Xiaomi Redmi 10 pro</option>
+                    <option value="Xiaomi POCO X3 pro">Xiaomi POCO X3 pro</option>
                 </select>
                 <label for="password" style="color: white" class="col-sm-1 control-label">Contraseña: </label>
                 <input type="text" class="form-control" placeholder = "ingrese la url" name="img" ><br>
@@ -199,11 +199,11 @@ if(isset($_POST['guardar'])){
     $img = mysqli_real_escape_string($mysqli, (strip_tags($_POST["img"],ENT_QUOTES)));
 
     $insert=mysqli_query($mysqli, "INSERT INTO funda_celular(color, img, modelo) values ('$color', '$img', '$modelo')");
-    if($insert){
+   /*  if($insert){
         echo"dato guardado";
     }else{
         echo"error al guardar";
-    }
+    } */
 }
 
 
@@ -211,4 +211,3 @@ if(isset($_POST['guardar'])){
 
 
 ?>
-    

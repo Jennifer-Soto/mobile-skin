@@ -1,8 +1,8 @@
 <?php
 include '../conexion.php';
 $sql=mysqli_query($mysqli, "SELECT id_funda, color, img, modelo FROM funda_celular");
-$iphone=mysqli_fetch_assoc($sql);
-if($iphone['modelo'] == "Iphone 12 PRO MAX" || $iphone['modelo'] == "Iphone 13 PRO MAX" || $iphone['modelo'] == "Iphone 14 PRO MAX"){
+$mobil=mysqli_fetch_assoc($sql);
+if($mobil['modelo'] == "Huawei Mate 20 lite" || $mobil['modelo'] == "Huawei Y9 2019" || $mobil['modelo'] == "Huawei P30 Lite"){
     while ($datos=mysqli_fetch_assoc($sql)){
         echo '<div class="card" style="width: 50%;">
         <img src="'.$datos['img'].'" class="card-ing-top" alt="...">
@@ -14,6 +14,6 @@ if($iphone['modelo'] == "Iphone 12 PRO MAX" || $iphone['modelo'] == "Iphone 13 P
         </div>';
     }
 }else{
-    echo"No hay diseños para Iphone";
+    echo"No hay diseños para Huawei";
 }
 ?>
