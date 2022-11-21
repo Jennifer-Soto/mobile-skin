@@ -22,7 +22,7 @@ if($_POST){
             if($_SESSION['tipo_usuario']==1){
               header("LOCATION:dashboard/index.php");
             }else{
-              header("LOCATION: ../inicio/index.php");
+              header("LOCATION: ../formulario.php");
             }
         }else{
             echo"la contraseña es incorrecta";
