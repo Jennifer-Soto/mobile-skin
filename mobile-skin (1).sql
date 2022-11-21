@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 09-11-2022 a las 22:49:03
+-- Tiempo de generación: 21-11-2022 a las 01:55:06
 -- Versión del servidor: 10.4.22-MariaDB
 -- Versión de PHP: 8.1.2
 
@@ -67,9 +67,21 @@ CREATE TABLE `funda_celular` (
   `id_funda` int(11) NOT NULL,
   `colores` varchar(60) NOT NULL,
   `imagen` varchar(400) NOT NULL,
-  `catalogo` varchar(250) NOT NULL,
+  `modelo` varchar(250) NOT NULL,
   `texto` varchar(400) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `funda_celular`
+--
+
+INSERT INTO `funda_celular` (`id_funda`, `colores`, `imagen`, `modelo`, `texto`) VALUES
+(5, 'naranja', 'https://iphone-semic.telework.studio/storage/193/conversions/amapoloa-card.png', 'Iphone 12 PRO MAX', ''),
+(8, '', '', '', ''),
+(9, 'rojo', 'https://tienda.bananacomputer.com/cms/uploads/webp/623E6F9A-DF73-44EE-B42B-7BF08ABF8BD0-560-ri3mqr.webp', 'Iphone 14 PRO MAX', ''),
+(10, 'rojo', 'https://tienda.bananacomputer.com/cms/uploads/webp/623E6F9A-DF73-44EE-B42B-7BF08ABF8BD0-560-ri3mqr.webp', 'Iphone 14 PRO MAX', ''),
+(11, 'rojo', 'https://tienda.bananacomputer.com/cms/uploads/webp/623E6F9A-DF73-44EE-B42B-7BF08ABF8BD0-560-ri3mqr.webp', 'Iphone 14 PRO MAX', ''),
+(12, '', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -93,7 +105,7 @@ CREATE TABLE `usuario` (
   `user_id` int(11) NOT NULL,
   `usuarios` varchar(60) NOT NULL,
   `tipo_usuario` int(11) NOT NULL,
-  `contraseña` varchar(20) NOT NULL,
+  `contrasena` varchar(20) NOT NULL,
   `nombre` varchar(80) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -101,13 +113,24 @@ CREATE TABLE `usuario` (
 -- Volcado de datos para la tabla `usuario`
 --
 
-INSERT INTO `usuario` (`user_id`, `usuarios`, `tipo_usuario`, `contraseña`, `nombre`) VALUES
-(7, 'admin', 1, '7110eda4d09e062aa5e4', 'Administrador web'),
-(8, 'usuario', 2, 'usuarios', 'usuario estandar');
+INSERT INTO `usuario` (`user_id`, `usuarios`, `tipo_usuario`, `contrasena`, `nombre`) VALUES
+(7, 'admin', 1, 'admin', 'Administrador web'),
+(8, 'usuario', 2, 'usuarios', 'usuario estandar'),
+(21, 'jenni', 1, '01jungkook', 'jennifer\r\n'),
+(22, '', 2, '', ''),
+(23, 'administrador', 2, '', 'luisa'),
+(24, '', 2, '', ''),
+(25, '111', 2, '111', '111');
 
 --
 -- Índices para tablas volcadas
 --
+
+--
+-- Indices de la tabla `funda_celular`
+--
+ALTER TABLE `funda_celular`
+  ADD PRIMARY KEY (`id_funda`);
 
 --
 -- Indices de la tabla `usuario`
@@ -120,10 +143,16 @@ ALTER TABLE `usuario`
 --
 
 --
+-- AUTO_INCREMENT de la tabla `funda_celular`
+--
+ALTER TABLE `funda_celular`
+  MODIFY `id_funda` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+
+--
 -- AUTO_INCREMENT de la tabla `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

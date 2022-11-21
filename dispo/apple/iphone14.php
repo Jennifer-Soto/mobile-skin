@@ -51,7 +51,7 @@
                 <button class="btn btn-primary " style="height: 30px; background-color:#800080;"></button>
         <form action="mate.php" method="post">
 
-            <h3>AGREGAR UN TEXTO</h3>
+            <br><h3>AGREGAR UN TEXTO</h3>
        
             <input name="texto" type="text" placeholder="texto ">
             <input type="color" name="color"> 

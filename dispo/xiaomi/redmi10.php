@@ -45,9 +45,9 @@
     <br><h3>ESCOGE EL COLOR DE TU FUNDA </h3>
         
                 <button class="btn btn-primary " style="height: 30px; background-color:#FF0000;"></button>
-                <button class="btn btn-primary " style="height: 30px; background-color:;"></button><br>
-                <button class="btn btn-primary " style="height: 30px; background-color:;"></button>
-                <button class="btn btn-primary " style="height: 30px; background-color:;"></button>
+                <button class="btn btn-primary " style="height: 30px; background-color:#000000;"></button><br>
+                <button class="btn btn-primary " style="height: 30px; background-color:#000080;"></button>
+                <button class="btn btn-primary " style="height: 30px; background-color:#DD969C;"></button>
         <form action="mate.php" method="post">
             <br><h3>AGREGAR UN TEXTO</h3>
        
