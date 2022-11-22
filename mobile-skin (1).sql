@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 21-11-2022 a las 01:55:06
+-- Tiempo de generación: 23-11-2022 a las 00:01:32
 -- Versión del servidor: 10.4.22-MariaDB
 -- Versión de PHP: 8.1.2
 
@@ -65,8 +65,8 @@ CREATE TABLE `dispositivos` (
 
 CREATE TABLE `funda_celular` (
   `id_funda` int(11) NOT NULL,
-  `colores` varchar(60) NOT NULL,
-  `imagen` varchar(400) NOT NULL,
+  `color` varchar(60) NOT NULL,
+  `img` varchar(400) NOT NULL,
   `modelo` varchar(250) NOT NULL,
   `texto` varchar(400) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -75,13 +75,13 @@ CREATE TABLE `funda_celular` (
 -- Volcado de datos para la tabla `funda_celular`
 --
 
-INSERT INTO `funda_celular` (`id_funda`, `colores`, `imagen`, `modelo`, `texto`) VALUES
+INSERT INTO `funda_celular` (`id_funda`, `color`, `img`, `modelo`, `texto`) VALUES
 (5, 'naranja', 'https://iphone-semic.telework.studio/storage/193/conversions/amapoloa-card.png', 'Iphone 12 PRO MAX', ''),
-(8, '', '', '', ''),
-(9, 'rojo', 'https://tienda.bananacomputer.com/cms/uploads/webp/623E6F9A-DF73-44EE-B42B-7BF08ABF8BD0-560-ri3mqr.webp', 'Iphone 14 PRO MAX', ''),
-(10, 'rojo', 'https://tienda.bananacomputer.com/cms/uploads/webp/623E6F9A-DF73-44EE-B42B-7BF08ABF8BD0-560-ri3mqr.webp', 'Iphone 14 PRO MAX', ''),
 (11, 'rojo', 'https://tienda.bananacomputer.com/cms/uploads/webp/623E6F9A-DF73-44EE-B42B-7BF08ABF8BD0-560-ri3mqr.webp', 'Iphone 14 PRO MAX', ''),
-(12, '', '', '', '');
+(19, 'Azul', 'https://ss7.vzw.com/is/image/VerizonWireless/apple-silicone-case-with-magsafe-for-iphone-12-pro-max-capri-blue-mk043zm-a-iset?$acc-lg$', 'Iphone 12 PRO MAX', ''),
+(21, 'azul', 'https://ss7.vzw.com/is/image/VerizonWireless/apple-silicone-case-with-magsafe-for-iphone-12-pro-max-capri-blue-mk043zm-a-iset?$acc-lg$', 'Iphone 12 PRO MAX', ''),
+(34, 'rojo', 'https://cdn.shopify.com/s/files/1/0604/8373/1606/products/IMG-5451777_823x.png?v=1660452447', 'Iphone 12 PRO MAX', ''),
+(36, 'Rojo', 'https://cdn.shopify.com/s/files/1/0604/8373/1606/products/IMG-5451777_823x.png?v=1660452447', 'Iphone 12 PRO MAX', '');
 
 -- --------------------------------------------------------
 
@@ -116,11 +116,7 @@ CREATE TABLE `usuario` (
 INSERT INTO `usuario` (`user_id`, `usuarios`, `tipo_usuario`, `contrasena`, `nombre`) VALUES
 (7, 'admin', 1, 'admin', 'Administrador web'),
 (8, 'usuario', 2, 'usuarios', 'usuario estandar'),
-(21, 'jenni', 1, '01jungkook', 'jennifer\r\n'),
-(22, '', 2, '', ''),
-(23, 'administrador', 2, '', 'luisa'),
-(24, '', 2, '', ''),
-(25, '111', 2, '111', '111');
+(21, 'jenni', 1, '01jungkook', 'jennifer\r\n');
 
 --
 -- Índices para tablas volcadas
@@ -146,7 +142,7 @@ ALTER TABLE `usuario`
 -- AUTO_INCREMENT de la tabla `funda_celular`
 --
 ALTER TABLE `funda_celular`
-  MODIFY `id_funda` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id_funda` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 
 --
 -- AUTO_INCREMENT de la tabla `usuario`
