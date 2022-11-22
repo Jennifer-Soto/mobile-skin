@@ -64,7 +64,7 @@
                 </form>
 
                 <br><h3>HAZ TU COMPRA AQUI</h3>
-                <a class="nav-link" href="login/login.php"><img src="../../images/carritoxd.png" alt="image" width="30px" height="30px"/></a>
+                <a class="nav-link" href="../../login/login.php"><img src="../../images/carritoxd.png" alt="image" width="30px" height="30px"/></a>
                 </div>  
             </div>
             <div class="col-md-5 col-lg-6">

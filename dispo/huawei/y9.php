@@ -1,3 +1,9 @@
+<?php 
+
+    $texto = $_POST['texto'];
+    $color = $_POST['color'];
+ 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -58,12 +64,12 @@
             <button>Enviar</button>
         </form>
         <br><h3>HAZ TU COMPRA AQUI</h3>
-        <a class="nav-link" href="login/login.php"><img src="../../images/carritoxd.png" alt="image" width="30px" height="30px"/></a>
+        <a class="nav-link" href="../../login/login.php"><img src="../../images/carritoxd.png" alt="image" width="30px" height="30px"/></a>
        </div>  
    </div>
    <div class="col-md-5 col-lg-6">
        <div class="card">
-           <img class="card-img-top" src="../../uploads/huawei-y9" style = "object-fit:scale-down; " alt="700px" width="700px" height = " 700px "> 
+           <img class="card-img-top" src="../../uploads/huawei-y9" style = "object-fit:scale-down; " alt="700px" width="700px" height = "700px"> 
            <h1 style="position:absolute; top:450px; left: 300px; font-size:40px; "><?php echo  "<p style=' color: $color'> $texto</p>" ?></h1>
            </div>  
    </div>   
