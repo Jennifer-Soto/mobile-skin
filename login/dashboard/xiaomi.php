@@ -185,7 +185,7 @@ include"../conexion.php";
                 </div>     
             </form>
             <div class="col-md-6">
-                <?php include"coloresiphone.php";?>
+                <?php include"coloresxiaomi.php";?>
             </div> 
             
         </div>
