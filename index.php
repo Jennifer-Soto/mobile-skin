@@ -93,15 +93,6 @@
                                 <p>Fundas desde $15.000</p>
 							</div>
 						</li><!-- .highlight .left-row -->
-
-						<li class="highlight lhgh" data-index="1">
-                            <i class=""><img src="images/marca/huawei.jpg" alt="" width="50px" height="50px"></i>
-							<div class="fl-inner">
-								<h4> Huawei </h4>
-                                <p>Fundas desde $15.000</p>
-							</div>
-						</li><!-- .highlight .left-row -->
-
 					</ul>
 				</div><!-- .row .left-row -->
 			  
@@ -113,13 +104,7 @@
 							<img width="100" height="200" src="images/marca/apple-logo.png" class="attachment-highlight wp-post-image" alt="Apple" />    
 						</div>
 						<div class="hgh-linner hgi" data-index="1">
-							<img width="100" height="200" src="images/marca/HUAWEI-LOGO.webp" class="attachment-highlight wp-post-image" alt="Huawei" />    
-						</div>
-						<div class="hgh-linner hgi" data-index="2">
 							<img width="100" height="200" src="images/marca/Samsung-Logo.webp" class="attachment-highlight wp-post-image" alt="Samsung" />    
-						</div>
-						<div class="hgh-rinner hgi" data-index="3">
-							<img width="100" height="200" src="images/marca/Xiaomi_logo.png" class="attachment-highlight wp-post-image" alt="Xiaomi" />    
 						</div>
 					</div>
 				</div>
@@ -127,19 +112,13 @@
 				<!--The Second row-->
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 right-row">
 					<ul class="features-right"><br><br><br><br><br>
-						<li class="highlight rhgh" data-index="2">		
+						<li class="highlight rhgh" data-index="1">		
                             <i class=""><img src="images/marca/samsung.jpg" alt="" width="70px" height="40px"></i>					 
 							<div class="fr-inner">
 								<h4> Samsung </h4>
                                 <p>Fundas desde $15.000</p>
 							</div>
 						</li><!-- .highlight .left-row -->
-						<li class="highlight rhgh" data-index="3">
-                            <i class=""><img src="images/marca/xiaomi.png" alt="" width="50px" height="50px"></i>
-							<div class="fr-inner">
-								<h4> Xiaomi </h4>
-                                <p>Fundas desde $15.000</p>
-							</div>
 					</ul>
 				</div><!-- .row .left-row -->
 			  
