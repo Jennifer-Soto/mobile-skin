@@ -52,9 +52,9 @@ $datos=mysqli_fetch_assoc($sql);
 
     <br><h3>ESCOGE EL COLOR DE TU FUNDA </h3>
 
+                <a href="moviles/12proamarillo.php"/><button class="btn btn-primary "  style="height: 30px; background-color:#F6CB3E;"></button></a>
+                <a href="moviles/12pronaranja.php"/><button class="btn btn-primary " style="height: 30px; background-color:#ffa420;"></button></a><br>
                 <a href="moviles/12prorojo.php"/><button class="btn btn-primary "  style="height: 30px; background-color:#FF0000;"></button></a>
-                <a href="moviles/12proamarillo.php"/><button class="btn btn-primary " style="height: 30px; background-color:#F6CB3E;"></button></a><br>
-                <a href="moviles/12proazul.php"/><button class="btn btn-primary "  style="height: 30px; background-color:#0000FF;"></button></a>
                 <a href="moviles/12prorosa.php"/><button class="btn btn-primary " style="height: 30px; background-color:#FAD7CB;"></button></a>
         <form action="mate.php" method="post">
 

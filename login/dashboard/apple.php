@@ -71,12 +71,12 @@ include"../conexion.php";
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
+            
             <li class="nav-item">
-                <a class="nav-link collapsed" href="index.php" data-toggle="collapse" data-target="#collapse"
-                    aria-expanded="true" aria-controls="collapsedos">
+                <a class="nav-link" href="index.php">
                     <img src="../../images/logos/mobil.png" alt="" width="18px" height="18px">
-                    <span>regresar</span>
-                </a>
+                    <span>Regresar</span></a>
+                </li>
                 <!-- <div id="collapsedos" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Dispositivos:</h6>
@@ -86,7 +86,7 @@ include"../conexion.php";
                         <a class="collapse-item" href="xioami.php">Xiaomi</a>
                     </div>
                 </div> -->
-            </li>
+            
            
             <!-- Nav Item - Utilities Collapse Menu -->
             <!-- <li class="nav-item">
@@ -108,12 +108,7 @@ include"../conexion.php";
             </li> -->
 
             <!-- Divider -->
-            <hr class="sidebar-divider">
-
-            <!-- Heading -->
-            <div class="sidebar-heading">
-                Funciones
-            </div>
+            
 
             <!-- Nav Item - Pages Collapse Menu -->
             <!--<li class="nav-item">
@@ -137,29 +132,7 @@ include"../conexion.php";
             </li>-->
 
             <!-- Nav Item - Charts -->
-            <li class="nav-item">
-                <a class="nav-link" href="admin.php">
-                    <img src="../../images/logos/admin.png" alt="" width="18px" height="18px">
-                    <span>Usuarios Admin</span></a>
-            </li>
-
-            <!-- Nav Item - Tables -->
-            <li class="nav-item">
-                <a class="nav-link" href="usuarios.php">
-                    <img src="../../images/logos/user.png" alt="" width="15px" height="15px">
-                    <span>Usuarios</span></a>
-            </li>
-
-            <!-- Divider -->
-            <hr class="sidebar-divider d-none d-md-block">
-
-            <!-- Sidebar Toggler (Sidebar) -->
-            <div class="text-center d-none d-md-inline">
-                <button class="rounded-circle border-0" id="sidebarToggle"></button>
-            </div>
-            <li>
-                <img src="../../images/logos/.png" alt="" width="15px" height="15px">  
-            </li>
+           
             <!-- Sidebar Message -->
             <!-- <div class="sidebar-card d-none d-lg-flex">
                 <img class="sidebar-card-illustration mb-2" src="img/undraw_rocket.svg" alt="...">
@@ -176,7 +149,8 @@ include"../conexion.php";
                     <option value="value 1">Seleccione el modelo</option>        
                     <option value="Iphone 12 PRO MAX">Iphone 12 PRO MAX</option>
                     <option value="Iphone 13 PRO MAX">Iphone 13 PRO MAX</option>
-                    <option value="Iphone 14 PRO MAX">Iphone 14 PRO MAX</option>
+                    <option value="Samsung A10s">Samsung A10s</option>
+                    <option value="Samsung A20s">Samsung A20s</option>
                 </select>
                 <label for="password" style="color: white" class="col-sm-1 control-label">Contraseña: </label>
                 <input type="text" class="form-control" placeholder = "ingrese la url" name="img" ><br>
