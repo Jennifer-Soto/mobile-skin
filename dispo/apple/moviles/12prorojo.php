@@ -28,7 +28,7 @@ $datos=mysqli_fetch_assoc($sql);
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../../../css/custom.css">
     <link rel="stylesheet" href="../../../css/formulario.css">
-
+        
 </head>
 <body>
     <!-- Barra de navegación -->
@@ -57,11 +57,11 @@ $datos=mysqli_fetch_assoc($sql);
 
     <br><h3>ESCOGE EL COLOR DE TU FUNDA </h3>
 
-                <a href="moviles/12prorojo.php"/><button class="btn btn-primary "  style="height: 30px; background-color:#FF0000;"></button></a>
-                <a href="moviles/12proamarillo.php"/><button class="btn btn-primary " style="height: 30px; background-color:#F6CB3E;"></button></a><br>
-                <a href="moviles/12proazul.php"/><button class="btn btn-primary "  style="height: 30px; background-color:#0000FF;"></button></a>
-                <a href="moviles/12prorosa.php"/><button class="btn btn-primary " style="height: 30px; background-color:#FAD7CB;"></button></a>
-        <form action="12proazul.php" method="post">
+                <a href="12prorojo.php"/><button class="btn btn-primary "  style="height: 30px; background-color:#FF0000;"></button></a>
+                <a href="12proamarillo.php"/><button class="btn btn-primary " style="height: 30px; background-color:#F6CB3E;"></button></a><br>
+                <a href="12proazul.php"/><button class="btn btn-primary "  style="height: 30px; background-color:#0000FF;"></button></a>
+                <a href="12prorosa.php"/><button class="btn btn-primary " style="height: 30px; background-color:#FAD7CB;"></button></a>
+        <form action="12prorojo.php" method="post">
 
             <br><h3>AGREGAR UN TEXTO</h3>
        

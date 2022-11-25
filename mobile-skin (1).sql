@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 24-11-2022 a las 00:58:19
+-- Tiempo de generación: 25-11-2022 a las 02:50:41
 -- Versión del servidor: 10.4.22-MariaDB
 -- Versión de PHP: 8.1.2
 
@@ -77,7 +77,7 @@ CREATE TABLE `funda_celular` (
 
 INSERT INTO `funda_celular` (`id_funda`, `color`, `img`, `modelo`, `texto`) VALUES
 (41, 'azul', 'https://ss7.vzw.com/is/image/VerizonWireless/apple-silicone-case-with-magsafe-for-iphone-12-pro-max-capri-blue-mk043zm-a-iset?$acc-lg$', 'Iphone 12 PRO MAX', ''),
-(42, 'azul', 'https://ss7.vzw.com/is/image/VerizonWireless/apple-silicone-case-with-magsafe-for-iphone-12-pro-max-capri-blue-mk043zm-a-iset?$acc-lg$', 'Iphone 12 PRO MAX', ''),
+(42, 'Azul', 'https://ss7.vzw.com/is/image/VerizonWireless/apple-silicone-case-with-magsafe-for-iphone-12-pro-max-capri-blue-mk043zm-a-iset?$acc-lg$', 'Iphone 12 PRO MAX', ''),
 (43, 'rojo', 'https://cdn.shopify.com/s/files/1/0604/8373/1606/products/IMG-5451777_1445x.png?v=1660452447', 'Iphone 12 PRO MAX', ''),
 (45, 'naranja', 'https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_87086621/fee_325_225_png', 'Iphone 12 PRO MAX', ''),
 (47, 'rosa', 'https://ss7.vzw.com/is/image/VerizonWireless/apple-silicone-case-with-magsafe-for-iphone-12-pro-max-cantaloupe-mk073zm-a-iset?$acc-lg$', 'Iphone 12 PRO MAX', ''),
@@ -96,7 +96,8 @@ INSERT INTO `funda_celular` (`id_funda`, `color`, `img`, `modelo`, `texto`) VALU
 (60, 'rojo', 'http://cdn.shopify.com/s/files/1/0607/8303/4544/products/A20Srojofront.png?v=1655925624', 'Samsung A20s', ''),
 (61, 'amarillo', 'http://cdn.shopify.com/s/files/1/0607/8303/4544/products/A20Samarillofront.png?v=1655925362', 'Samsung A20s', ''),
 (62, 'morado', 'http://cdn.shopify.com/s/files/1/0607/8303/4544/products/A20Svioletafront.png?v=1655925768', 'Samsung A20s', ''),
-(63, 'negro', 'http://cdn.shopify.com/s/files/1/0607/8303/4544/products/A20Snegrofront.png?v=1655925536', 'Samsung A20s', '');
+(63, 'negro', 'http://cdn.shopify.com/s/files/1/0607/8303/4544/products/A20Snegrofront.png?v=1655925536', 'Samsung A20s', ''),
+(64, 'Azul', 'https://ss7.vzw.com/is/image/VerizonWireless/apple-silicone-case-with-magsafe-for-iphone-12-pro-max-capri-blue-mk043zm-a-iset?$acc-lg$', 'Iphone 12 PRO MAX', '');
 
 -- --------------------------------------------------------
 
@@ -157,7 +158,7 @@ ALTER TABLE `usuario`
 -- AUTO_INCREMENT de la tabla `funda_celular`
 --
 ALTER TABLE `funda_celular`
-  MODIFY `id_funda` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=64;
+  MODIFY `id_funda` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=65;
 
 --
 -- AUTO_INCREMENT de la tabla `usuario`
