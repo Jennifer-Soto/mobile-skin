@@ -51,12 +51,12 @@
 
     <br><h3>ESCOGE EL COLOR DE TU FUNDA </h3>
         
-                <button class="btn btn-primary " style="height: 30px; background-color:#808080;"></button>
-                <button class="btn btn-primary " style="height: 30px; background-color:#F7BFBE;"></button><br>
-                <button class="btn btn-primary " style="height: 30px; background-color:FA8072;"></button>
-                <button class="btn btn-primary " style="height: 30px; background-color:#2D572C;"></button>
+                <a href="moviles/13progris.php"><button class="btn btn-primary " style="height: 30px; background-color:#808080;"></button></a>
+                <a href="moviles/13prorosa.php"><button class="btn btn-primary " style="height: 30px; background-color:#F7BFBE;"></button></a><br>
+                <a href="moviles/13prosalmon.php"><button class="btn btn-primary " style="height: 30px; background-color:FA8072;"></button></a>
+                <a href="moviles/13proverde.php"><button class="btn btn-primary " style="height: 30px; background-color:#2D572C;"></button></a>
         
-        <form action="mate.php" method="post">
+        <form action="iphone13.php" method="post">
 
             <br><h3>AGREGAR UN TEXTO</h3>
        

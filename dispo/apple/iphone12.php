@@ -52,11 +52,11 @@ $datos=mysqli_fetch_assoc($sql);
 
     <br><h3>ESCOGE EL COLOR DE TU FUNDA </h3>
 
-                <a href="moviles/12proamarillo.php"/><button class="btn btn-primary "  style="height: 30px; background-color:#F6CB3E;"></button></a>
-                <a href="moviles/12pronaranja.php"/><button class="btn btn-primary " style="height: 30px; background-color:#ffa420;"></button></a><br>
+    <a href="moviles/12proazul.php"/><button class="btn btn-primary "  style="height: 30px; background-color:#4151E1;"></button></a>
+                <a href="moviles/12prorosa.php"/><button class="btn btn-primary " style="height: 30px; background-color:#F7BFBE;"></button></a><br>
                 <a href="moviles/12prorojo.php"/><button class="btn btn-primary "  style="height: 30px; background-color:#FF0000;"></button></a>
-                <a href="moviles/12prorosa.php"/><button class="btn btn-primary " style="height: 30px; background-color:#FAD7CB;"></button></a>
-        <form action="mate.php" method="post">
+                <a href="moviles/12pronaranja.php"/><button class="btn btn-primary " style="height: 30px; background-color:#F4A020;"></button></a>
+        <form action="iphone12.php" method="post">
 
             <br><h3>AGREGAR UN TEXTO</h3>
        
@@ -69,8 +69,8 @@ $datos=mysqli_fetch_assoc($sql);
        </div>  
    </div>
    <div class="col-md-5 col-lg-6">
-       <div class="">
-           <img class="card-img-top" src="../../uploads/iphone-12-pro-max.avif" style = "object-fit:scale-down; " alt="600px" width="600px" height = " 600px "> 
+       <div class="card">
+           <img class="card-img-top"  src="../../uploads/iphone-12-pro-max.avif" style = "object-fit:scale-down; " alt="600px" width="600px" height = " 600px "> 
            <h1 style="position:absolute; top:450px; left: 300px; font-size:40px; "><?php echo  "<p style=' color: $color'> $texto</p>" ?></h1>
            </div>  
    </div>   

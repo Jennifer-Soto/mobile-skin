@@ -57,11 +57,11 @@ $datos=mysqli_fetch_assoc($sql);
 
     <br><h3>ESCOGE EL COLOR DE TU FUNDA </h3>
 
+    <a href="moviles/12proazul.php"/><button class="btn btn-primary "  style="height: 30px; background-color:#4151E1;"></button></a>
+                <a href="moviles/12prorosa.php"/><button class="btn btn-primary " style="height: 30px; background-color:#6C4675;"></button></a><br>
                 <a href="moviles/12prorojo.php"/><button class="btn btn-primary "  style="height: 30px; background-color:#FF0000;"></button></a>
-                <a href="moviles/12proamarillo.php"/><button class="btn btn-primary " style="height: 30px; background-color:#F6CB3E;"></button></a><br>
-                <a href="moviles/12proazul.php"/><button class="btn btn-primary "  style="height: 30px; background-color:#0000FF;"></button></a>
-                <a href="moviles/12prorosa.php"/><button class="btn btn-primary " style="height: 30px; background-color:#FAD7CB;"></button></a>
-        <form action="12proazul.php" method="post">
+                <a href="moviles/12pronaranja.php"/><button class="btn btn-primary " style="height: 30px; background-color:#404040;"></button></a>
+        <form action="12prorojo.php" method="post">
 
             <br><h3>AGREGAR UN TEXTO</h3>
        
@@ -75,7 +75,7 @@ $datos=mysqli_fetch_assoc($sql);
    </div>
    <div class="col-md-5 col-lg-6">
        <div class="">
-       <?php if($datos['color'] == "Azul" && $datos['modelo'] == "Iphone 12 PRO MAX"){
+       <?php if($datos['color'] == "rojo" && $datos['modelo'] == "Iphone 12 PRO MAX"){
         while ($datos=mysqli_fetch_assoc($sql)){
         echo '<img class="card-img-top" src="' . $datos['img'] . '" style = "object-fit:scale-down; " alt="700px" width="700px" height = " 700px ">';
         }

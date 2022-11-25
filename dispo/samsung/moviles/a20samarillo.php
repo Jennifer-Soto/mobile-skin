@@ -57,10 +57,10 @@ $datos=mysqli_fetch_assoc($sql);
 
     <br><h3>ESCOGE EL COLOR DE TU FUNDA </h3>
 
-                <a href="samsung/moviles/a20smorado.php"><button class="btn btn-primary " style="height: 30px; background-color:#D29BFD;"></button></a>
-                <a href="samsung/moviles/a20srojo.php"><button class="btn btn-primary " style="height: 30px; background-color:#FF0000;"></button></a><br>
-                <a href="samsung/moviles/a20snegro.php"><button class="btn btn-primary " style="height: 30px; background-color:#000000;"></button></a>
-                <a href="samsung/moviles/a20samarillo.php"><button class="btn btn-primary " style="height: 30px; background-color:#FFFF00;"></button></a>
+                <a href="moviles/a20smorado.php"><button class="btn btn-primary " style="height: 30px; background-color:#D29BFD;"></button></a>
+                <a href="moviles/a20srojo.php"><button class="btn btn-primary " style="height: 30px; background-color:#FF0000;"></button></a><br>
+                <a href="moviles/a20snegro.php"><button class="btn btn-primary " style="height: 30px; background-color:#000000;"></button></a>
+                <a href="moviles/a20samarillo.php"><button class="btn btn-primary " style="height: 30px; background-color:#FFFF00;"></button></a>
         <form action="12proazul.php" method="post">
 
             <br><h3>AGREGAR UN TEXTO</h3>

@@ -57,10 +57,10 @@ $datos=mysqli_fetch_assoc($sql);
 
     <br><h3>ESCOGE EL COLOR DE TU FUNDA </h3>
 
-    <a href="moviles/a10smorado.php"><button class="btn btn-primary " style="height: 30px; background-color:#D29BFD;"></button></a>
-                <a href="moviles/a10samarillo.php"><button class="btn btn-primary " style="height: 30px; background-color:#FFFF00;"></button></a><br>
-                <a href="moviles/a10snegro.php"><button class="btn btn-primary " style="height: 30px; background-color:#000000;"></button></a>
+                <a href="moviles/a10samarillo.php"><button class="btn btn-primary " style="height: 30px; background-color:#FFFF00;"></button></a>
+                <a href="moviles/a10snegro.php"><button class="btn btn-primary " style="height: 30px; background-color:#000000;"></button></a><br>
                 <a href="moviles/a10srojo.php"><button class="btn btn-primary " style="height: 30px; background-color:#FF0000;"></button></a>
+                <a href="moviles/a10smorado.php"><button class="btn btn-primary " style="height: 30px; background-color:#D29BFD;"></button></a>
         <form action="a10snegro.php" method="post">
 
             <br><h3>AGREGAR UN TEXTO</h3>
