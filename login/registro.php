@@ -76,16 +76,16 @@ $contraseña="m";
         $contraseña = $_POST['password'];
         
     /*Insertamos los datos de las variables en el servidor*/
-    if($contraseña == "m"){
+    if($contraseña == ""){
 
     }else{
     $insertar= "INSERT INTO usuario(nombre, usuarios, contrasena, tipo_usuario) values ('$nombre', '$usuarios', '$contraseña', '2')";
     }
    if ($mysqli->query($insertar) === true){
-        echo "Excelente";
+        echo '<script language="javascript">alert("Usuario creado");</script>';
     }
     else {
-        echo "Pésimo trabajo";
+        echo "";
     }
     echo "<br>"; 
 
